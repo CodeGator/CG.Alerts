@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Alert.yml",
+      "source_relative_path": "api/CG.Alerts.Alert.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Alert.html",
-          "hash": "D8wst6DbpA4lwTfxUEHsbQ=="
+          "relative_path": "api/CG.Alerts.Alert.html",
+          "hash": "Yy5IUjZkrRMMAFCkyrDAqw=="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.AlertExtensions.yml",
+      "source_relative_path": "api/CG.Alerts.AlertExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.AlertExtensions.html",
-          "hash": "TAu58QrA4C/ubwgMNpnipw=="
+          "relative_path": "api/CG.Alerts.AlertExtensions.html",
+          "hash": "J+snjxrO/CAdukTDD00w9g=="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.AlertHandlerBase.yml",
+      "source_relative_path": "api/CG.Alerts.AlertHandlerBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.AlertHandlerBase.html",
-          "hash": "tf3KvwVo9ldwGAZwSWpxgg=="
+          "relative_path": "api/CG.Alerts.AlertHandlerBase.html",
+          "hash": "lpDCUirCCTrKl+X4L6JmUA=="
         }
       },
       "is_incremental": false,
@@ -50,11 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.AlertType.yml",
+      "source_relative_path": "api/CG.Alerts.AlertType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.AlertType.html",
-          "hash": "MxSGho2dBRQW7MNKcgw71g=="
+          "relative_path": "api/CG.Alerts.AlertType.html",
+          "hash": "XdoTlAdWUXFpuM7RLHcIUA=="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.DefaultAlertHandler.yml",
+      "source_relative_path": "api/CG.Alerts.DefaultAlertHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.DefaultAlertHandler.html",
-          "hash": "7Y3biTcmAnhrvTLioWNW4w=="
+          "relative_path": "api/CG.Alerts.DefaultAlertHandler.html",
+          "hash": "blpPyCqMBqYZKU5FQDE9gA=="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.HostBuilderExtensions.yml",
+      "source_relative_path": "api/CG.Alerts.HostBuilderExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.HostBuilderExtensions.html",
-          "hash": "vwvFkfqynzHUkgZHWe3+XQ=="
+          "relative_path": "api/CG.Alerts.HostBuilderExtensions.html",
+          "hash": "kLg4bAGrjc1yrWEaDzwtbQ=="
         }
       },
       "is_incremental": false,
@@ -86,11 +86,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.HostExtensions.yml",
+      "source_relative_path": "api/CG.Alerts.HostExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.HostExtensions.html",
-          "hash": "Kdij6tFhxidMGoj+Eb2Qmw=="
+          "relative_path": "api/CG.Alerts.HostExtensions.html",
+          "hash": "25/nXgSXn+Nzm6rrNf8eDQ=="
         }
       },
       "is_incremental": false,
@@ -98,11 +98,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.IAlert.yml",
+      "source_relative_path": "api/CG.Alerts.IAlert.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.IAlert.html",
-          "hash": "O5+dBC2rpon+6HwEhxn7fA=="
+          "relative_path": "api/CG.Alerts.IAlert.html",
+          "hash": "voPJmCSqscUpESpmk1qYgA=="
         }
       },
       "is_incremental": false,
@@ -110,11 +110,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.IAlertHandler.yml",
+      "source_relative_path": "api/CG.Alerts.IAlertHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.IAlertHandler.html",
-          "hash": "Z/k3ZTXpQpO2EVvJ3g3aIA=="
+          "relative_path": "api/CG.Alerts.IAlertHandler.html",
+          "hash": "mkPZ/Z1esJxyxeJFDDhc+A=="
         }
       },
       "is_incremental": false,
@@ -122,11 +122,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.IApplication.yml",
+      "source_relative_path": "api/CG.Alerts.IApplication.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.IApplication.html",
-          "hash": "5NNHCZLO/aIizVTsxruMLw=="
+          "relative_path": "api/CG.Alerts.IApplication.html",
+          "hash": "1fgnwkwFkPkzEVuPBzFQgA=="
         }
       },
       "is_incremental": false,
@@ -134,11 +134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.AlertOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.AlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.AlertOptions.html",
-          "hash": "+il1CdXDt2J0H76/RHLKFw=="
+          "relative_path": "api/CG.Alerts.Options.AlertOptions.html",
+          "hash": "ln5aF3DUSf3F+whkV8GaoA=="
         }
       },
       "is_incremental": false,
@@ -146,11 +146,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.ApplicationOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.ApplicationOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.ApplicationOptions.html",
-          "hash": "r6/U4n62K4NgpMWMd/Gs4w=="
+          "relative_path": "api/CG.Alerts.Options.ApplicationOptions.html",
+          "hash": "p4Ba2AHXCdRl+pJcjXzsgg=="
         }
       },
       "is_incremental": false,
@@ -158,11 +158,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.AuditAlertOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.AuditAlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.AuditAlertOptions.html",
-          "hash": "W/yMmnvQfIJ3IKvP41jnWg=="
+          "relative_path": "api/CG.Alerts.Options.AuditAlertOptions.html",
+          "hash": "NnzkzvBoNzb00SdTUo5gjA=="
         }
       },
       "is_incremental": false,
@@ -170,11 +170,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.CriticalAlertOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.CriticalAlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.CriticalAlertOptions.html",
-          "hash": "+2c4LFnd9XeUjEewM4s8nQ=="
+          "relative_path": "api/CG.Alerts.Options.CriticalAlertOptions.html",
+          "hash": "Zu5ul4Ojcj0j/r2OPJJrzg=="
         }
       },
       "is_incremental": false,
@@ -182,11 +182,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.DebugAlertOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.DebugAlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.DebugAlertOptions.html",
-          "hash": "MdlpnxE90e3MXwiLjrs10g=="
+          "relative_path": "api/CG.Alerts.Options.DebugAlertOptions.html",
+          "hash": "JRWAyO40zJynsxGPMtHeuw=="
         }
       },
       "is_incremental": false,
@@ -194,11 +194,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.ErrorAlertOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.ErrorAlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.ErrorAlertOptions.html",
-          "hash": "ypPSGH9fZwF781lMyYK2tQ=="
+          "relative_path": "api/CG.Alerts.Options.ErrorAlertOptions.html",
+          "hash": "1Wk4NogMmyAH/AXW4pf/1Q=="
         }
       },
       "is_incremental": false,
@@ -206,11 +206,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.InformationAlertOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.InformationAlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.InformationAlertOptions.html",
-          "hash": "AG1/S0H9lDaeYP1B89Oyug=="
+          "relative_path": "api/CG.Alerts.Options.InformationAlertOptions.html",
+          "hash": "nRsAl6y1PLXyO4R0UBVNTA=="
         }
       },
       "is_incremental": false,
@@ -218,11 +218,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.TraceAlertOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.TraceAlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.TraceAlertOptions.html",
-          "hash": "xzv8h5OkaS7aC+sd3j2Y9w=="
+          "relative_path": "api/CG.Alerts.Options.TraceAlertOptions.html",
+          "hash": "9mAt8EhHH50Tm/JHaOeSYg=="
         }
       },
       "is_incremental": false,
@@ -230,11 +230,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.WarningAlertOptions.yml",
+      "source_relative_path": "api/CG.Alerts.Options.WarningAlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.WarningAlertOptions.html",
-          "hash": "ORuViQJsUumr1g/WKjuTng=="
+          "relative_path": "api/CG.Alerts.Options.WarningAlertOptions.html",
+          "hash": "45x7BDN0FVNqwi89HUqmzw=="
         }
       },
       "is_incremental": false,
@@ -242,11 +242,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.Options.yml",
+      "source_relative_path": "api/CG.Alerts.Options.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.Options.html",
-          "hash": "pPk+URJW87Nm58+ZwDLANg=="
+          "relative_path": "api/CG.Alerts.Options.html",
+          "hash": "sDerfnqTSkS0tAU9R4Podg=="
         }
       },
       "is_incremental": false,
@@ -254,11 +254,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.StandardAlertHandler.yml",
+      "source_relative_path": "api/CG.Alerts.StandardAlertHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.StandardAlertHandler.html",
-          "hash": "aTvbXtAIHI4OpsXL1xLbUg=="
+          "relative_path": "api/CG.Alerts.StandardAlertHandler.html",
+          "hash": "d1Vxvej2DMgWz+Uoo0WawA=="
         }
       },
       "is_incremental": false,
@@ -266,11 +266,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Applications.yml",
+      "source_relative_path": "api/CG.Alerts.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Applications.html",
-          "hash": "v5AdrNi/vz9hz9FJ3K8mYg=="
+          "relative_path": "api/CG.Alerts.html",
+          "hash": "8RfSKnwelsLYXl3tAvgM8g=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "XMGkGFjx+zQqc6CiPbaM+Q=="
+          "hash": "6nuf8Oa0Y7xdNeLG5Fi6xQ=="
         }
       },
       "is_incremental": false,
@@ -374,7 +374,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "9aa5fAwL0CqMuGKwn0j7mg=="
+          "hash": "LTLICRqLwimSPhFRMiW3TA=="
         }
       },
       "is_incremental": false,

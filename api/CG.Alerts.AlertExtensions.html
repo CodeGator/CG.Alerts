@@ -78,12 +78,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Applications.AlertExtensions">
+            <article class="content wrap" id="_content" data-uid="CG.Alerts.AlertExtensions">
   
   
-  <h1 id="CG_Applications_AlertExtensions" data-uid="CG.Applications.AlertExtensions" class="text-break">Class AlertExtensions
+  <h1 id="CG_Alerts_AlertExtensions" data-uid="CG.Alerts.AlertExtensions" class="text-break">Class AlertExtensions
   </h1>
-  <div class="markdown level0 summary"><p>This class contains extension methods related to the <a class="xref" href="CG.Applications.IAlert.html">IAlert</a>
+  <div class="markdown level0 summary"><p>This class contains extension methods related to the <a class="xref" href="CG.Alerts.IAlert.html">IAlert</a>
 type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -116,16 +116,16 @@ type.</p>
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Applications.html">CG.Applications</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Alerts.html">CG.Alerts</a></h6>
   <h6><strong>Assembly</strong>: CG.Alerts.dll</h6>
-  <h5 id="CG_Applications_AlertExtensions_syntax">Syntax</h5>
+  <h5 id="CG_Alerts_AlertExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class AlertExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <a id="CG_Applications_AlertExtensions_Raise_" data-uid="CG.Applications.AlertExtensions.Raise*"></a>
-  <h4 id="CG_Applications_AlertExtensions_Raise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.Raise(CG.Applications.IAlert,CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)">Raise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_Raise_" data-uid="CG.Alerts.AlertExtensions.Raise*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_Raise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.Raise(CG.Alerts.IAlert,CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)">Raise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method attempts raises an alert and throws an exception if that
 operation failes for any reason.</p>
 </div>
@@ -145,13 +145,13 @@ operation failes for any reason.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="CG.Applications.AlertType.html">AlertType</a></td>
+        <td><a class="xref" href="CG.Alerts.AlertType.html">AlertType</a></td>
         <td><span class="parametername">alertType</span></td>
         <td><p>The type of alert to raise.</p>
 </td>
@@ -182,15 +182,15 @@ operation failes for any reason.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_Raise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32__remarks">Remarks</h5>
+  <h5 id="CG_Alerts_AlertExtensions_Raise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
 There are convenience wrappers for the various flavors of alerts that
 are simpler to call than using this method directly:
-<ul><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseInformation_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseInformation(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseError(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseError(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseAudit_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseAudit(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseDebug_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseDebug(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseTrace_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseTrace(IAlert, String, String, String, Int32)</a></li></ul>
+<ul><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseInformation_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseInformation(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseError(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseError(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseAudit_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseAudit(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseDebug_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseDebug(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseTrace_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseTrace(IAlert, String, String, String, Int32)</a></li></ul>
 </p>
 </div>
-  <h5 id="CG_Applications_AlertExtensions_Raise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_Raise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_">Raise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_Raise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_Raise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_">Raise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -217,8 +217,8 @@ one or more of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseAudit_" data-uid="CG.Applications.AlertExtensions.RaiseAudit*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseAudit_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseAudit(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)">RaiseAudit(IAlert, String, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseAudit_" data-uid="CG.Alerts.AlertExtensions.RaiseAudit*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseAudit_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseAudit(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)">RaiseAudit(IAlert, String, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises an audit alert containing the specified message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -237,7 +237,7 @@ one or more of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -278,15 +278,15 @@ one or more of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseAudit_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseAudit_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseAudit(IAlert, String, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseAudit_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseAudit_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseAudit(IAlert, String, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -310,8 +310,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseCritical_" data-uid="CG.Applications.AlertExtensions.RaiseCritical*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseCritical(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)">RaiseCritical(IAlert, String, Exception, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseCritical_" data-uid="CG.Alerts.AlertExtensions.RaiseCritical*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseCritical(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)">RaiseCritical(IAlert, String, Exception, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises a critical error alert containing the specified
 message and an exception.</p>
 </div>
@@ -331,7 +331,7 @@ message and an exception.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -378,15 +378,15 @@ message and an exception.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, Exception, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, Exception, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -417,8 +417,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseCritical_" data-uid="CG.Applications.AlertExtensions.RaiseCritical*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseCritical(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)">RaiseCritical(IAlert, String, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseCritical_" data-uid="CG.Alerts.AlertExtensions.RaiseCritical*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseCritical(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)">RaiseCritical(IAlert, String, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises a critical error alert containing the specified message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -437,7 +437,7 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -478,15 +478,15 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -510,8 +510,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseDebug_" data-uid="CG.Applications.AlertExtensions.RaiseDebug*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseDebug_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseDebug(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)">RaiseDebug(IAlert, String, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseDebug_" data-uid="CG.Alerts.AlertExtensions.RaiseDebug*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseDebug_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseDebug(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)">RaiseDebug(IAlert, String, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises a debug alert containing the specified message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -530,7 +530,7 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -571,15 +571,15 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseDebug_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseDebug_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseDebug(IAlert, String, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseDebug_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseDebug_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseDebug(IAlert, String, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -603,8 +603,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseError_" data-uid="CG.Applications.AlertExtensions.RaiseError*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseError(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)">RaiseError(IAlert, String, Exception, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseError_" data-uid="CG.Alerts.AlertExtensions.RaiseError*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseError(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)">RaiseError(IAlert, String, Exception, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises an error alert containing the specified message
 and an exception.</p>
 </div>
@@ -624,7 +624,7 @@ and an exception.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -671,15 +671,15 @@ and an exception.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseError(IAlert, String, Exception, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseError(IAlert, String, Exception, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -710,8 +710,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseError_" data-uid="CG.Applications.AlertExtensions.RaiseError*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseError(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)">RaiseError(IAlert, String, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseError_" data-uid="CG.Alerts.AlertExtensions.RaiseError*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseError(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)">RaiseError(IAlert, String, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises an error alert containing the specified message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -730,7 +730,7 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -771,15 +771,15 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseError(IAlert, String, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseError(IAlert, String, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -803,8 +803,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseInformation_" data-uid="CG.Applications.AlertExtensions.RaiseInformation*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseInformation_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseInformation(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)">RaiseInformation(IAlert, String, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseInformation_" data-uid="CG.Alerts.AlertExtensions.RaiseInformation*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseInformation_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseInformation(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)">RaiseInformation(IAlert, String, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises an informational alert containing the specified
 message.</p>
 </div>
@@ -824,7 +824,7 @@ message.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -865,15 +865,15 @@ message.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseInformation_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseInformation_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseInformation(IAlert, String, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseInformation_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseInformation_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseInformation(IAlert, String, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -897,8 +897,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseTrace_" data-uid="CG.Applications.AlertExtensions.RaiseTrace*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseTrace_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseTrace(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)">RaiseTrace(IAlert, String, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseTrace_" data-uid="CG.Alerts.AlertExtensions.RaiseTrace*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseTrace_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseTrace(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)">RaiseTrace(IAlert, String, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises a trace alert containing the specified message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -917,7 +917,7 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -958,15 +958,15 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseTrace_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseTrace_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseTrace(IAlert, String, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseTrace_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseTrace_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseTrace(IAlert, String, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -990,8 +990,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseWarning_" data-uid="CG.Applications.AlertExtensions.RaiseWarning*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseWarning(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)">RaiseWarning(IAlert, String, Exception, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseWarning_" data-uid="CG.Alerts.AlertExtensions.RaiseWarning*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseWarning(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)">RaiseWarning(IAlert, String, Exception, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises a warning alert containing the specified message
 and an exception.</p>
 </div>
@@ -1011,7 +1011,7 @@ and an exception.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -1058,15 +1058,15 @@ and an exception.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, Exception, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, Exception, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -1097,8 +1097,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_RaiseWarning_" data-uid="CG.Applications.AlertExtensions.RaiseWarning*"></a>
-  <h4 id="CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.RaiseWarning(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)">RaiseWarning(IAlert, String, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_RaiseWarning_" data-uid="CG.Alerts.AlertExtensions.RaiseWarning*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.RaiseWarning(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)">RaiseWarning(IAlert, String, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method raises a warning alert containing the specified message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1117,7 +1117,7 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -1158,15 +1158,15 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">alert</code> parameter, for
 chaining calls together.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {
@@ -1190,8 +1190,8 @@ any of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_SetHandler_" data-uid="CG.Applications.AlertExtensions.SetHandler*"></a>
-  <h4 id="CG_Applications_AlertExtensions_SetHandler__1_CG_Applications_Alert___0_" data-uid="CG.Applications.AlertExtensions.SetHandler``1(CG.Applications.Alert,``0)">SetHandler&lt;T&gt;(Alert, T)</h4>
+  <a id="CG_Alerts_AlertExtensions_SetHandler_" data-uid="CG.Alerts.AlertExtensions.SetHandler*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_SetHandler__1_CG_Alerts_Alert___0_" data-uid="CG.Alerts.AlertExtensions.SetHandler``1(CG.Alerts.Alert,``0)">SetHandler&lt;T&gt;(Alert, T)</h4>
   <div class="markdown level1 summary"><p>This method sets a handler for alerts processing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1211,7 +1211,7 @@ any of the arguments are missing, or NULL.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.Alert.html">Alert</a></td>
+        <td><a class="xref" href="CG.Alerts.Alert.html">Alert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
@@ -1257,8 +1257,8 @@ one or more of the arguments are missing, or NULL.</p>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Applications_AlertExtensions_TryRaise_" data-uid="CG.Applications.AlertExtensions.TryRaise*"></a>
-  <h4 id="CG_Applications_AlertExtensions_TryRaise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_" data-uid="CG.Applications.AlertExtensions.TryRaise(CG.Applications.IAlert,CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)">TryRaise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</h4>
+  <a id="CG_Alerts_AlertExtensions_TryRaise_" data-uid="CG.Alerts.AlertExtensions.TryRaise*"></a>
+  <h4 id="CG_Alerts_AlertExtensions_TryRaise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_" data-uid="CG.Alerts.AlertExtensions.TryRaise(CG.Alerts.IAlert,CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)">TryRaise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</h4>
   <div class="markdown level1 summary"><p>This method attempts to raise an alert and returns false if that
 operation fails for any reason.</p>
 </div>
@@ -1278,13 +1278,13 @@ operation fails for any reason.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></td>
         <td><span class="parametername">alert</span></td>
         <td><p>The alert to use for the operation.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="CG.Applications.AlertType.html">AlertType</a></td>
+        <td><a class="xref" href="CG.Alerts.AlertType.html">AlertType</a></td>
         <td><span class="parametername">alertType</span></td>
         <td><p>The type of alert to raise.</p>
 </td>
@@ -1331,15 +1331,15 @@ operation fails for any reason.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="CG_Applications_AlertExtensions_TryRaise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32__remarks">Remarks</h5>
+  <h5 id="CG_Alerts_AlertExtensions_TryRaise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
 There are convenience wrappers for the various flavors of alerts that
 are simpler to call than using this method directly:
-<ul><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseInformation_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseInformation(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseError(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseError(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseAudit_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseAudit(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseDebug_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseDebug(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseTrace_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">RaiseTrace(IAlert, String, String, String, Int32)</a></li></ul>
+<ul><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseInformation_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseInformation(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseWarning(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseError(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseError(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, Exception, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseCritical(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseAudit_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseAudit(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseDebug_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseDebug(IAlert, String, String, String, Int32)</a></li><li><a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseTrace_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">RaiseTrace(IAlert, String, String, String, Int32)</a></li></ul>
 </p>
 </div>
-  <h5 id="CG_Applications_AlertExtensions_TryRaise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32__examples">Examples</h5>
-  <p>This example demonstrates how to call the <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_TryRaise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_">TryRaise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</a>
+  <h5 id="CG_Alerts_AlertExtensions_TryRaise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32__examples">Examples</h5>
+  <p>This example demonstrates how to call the <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_TryRaise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_">TryRaise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</a>
 method:</p>
 <pre><code>void Test()
 {

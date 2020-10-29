@@ -1,913 +1,913 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CG.Applications
-  name: CG.Applications
-  href: api/CG.Applications.html
-  commentId: N:CG.Applications
-  fullName: CG.Applications
-  nameWithType: CG.Applications
-- uid: CG.Applications.Alert
+- uid: CG.Alerts
+  name: CG.Alerts
+  href: api/CG.Alerts.html
+  commentId: N:CG.Alerts
+  fullName: CG.Alerts
+  nameWithType: CG.Alerts
+- uid: CG.Alerts.Alert
   name: Alert
-  href: api/CG.Applications.Alert.html
-  commentId: T:CG.Applications.Alert
-  fullName: CG.Applications.Alert
+  href: api/CG.Alerts.Alert.html
+  commentId: T:CG.Alerts.Alert
+  fullName: CG.Alerts.Alert
   nameWithType: Alert
-- uid: CG.Applications.Alert.Handler
+- uid: CG.Alerts.Alert.Handler
   name: Handler
-  href: api/CG.Applications.Alert.html#CG_Applications_Alert_Handler
-  commentId: P:CG.Applications.Alert.Handler
-  fullName: CG.Applications.Alert.Handler
+  href: api/CG.Alerts.Alert.html#CG_Alerts_Alert_Handler
+  commentId: P:CG.Alerts.Alert.Handler
+  fullName: CG.Alerts.Alert.Handler
   nameWithType: Alert.Handler
-- uid: CG.Applications.Alert.Handler*
+- uid: CG.Alerts.Alert.Handler*
   name: Handler
-  href: api/CG.Applications.Alert.html#CG_Applications_Alert_Handler_
-  commentId: Overload:CG.Applications.Alert.Handler
+  href: api/CG.Alerts.Alert.html#CG_Alerts_Alert_Handler_
+  commentId: Overload:CG.Alerts.Alert.Handler
   isSpec: "True"
-  fullName: CG.Applications.Alert.Handler
+  fullName: CG.Alerts.Alert.Handler
   nameWithType: Alert.Handler
-- uid: CG.Applications.AlertExtensions
+- uid: CG.Alerts.AlertExtensions
   name: AlertExtensions
-  href: api/CG.Applications.AlertExtensions.html
-  commentId: T:CG.Applications.AlertExtensions
-  fullName: CG.Applications.AlertExtensions
+  href: api/CG.Alerts.AlertExtensions.html
+  commentId: T:CG.Alerts.AlertExtensions
+  fullName: CG.Alerts.AlertExtensions
   nameWithType: AlertExtensions
-- uid: CG.Applications.AlertExtensions.Raise(CG.Applications.IAlert,CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.Raise(CG.Alerts.IAlert,CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: Raise(IAlert, AlertType, IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_Raise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.Raise(CG.Applications.IAlert,CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_Raise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.Raise(CG.Alerts.IAlert,CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: Raise(IAlert, AlertType, IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertExtensions.Raise(CG.Applications.IAlert, CG.Applications.AlertType, System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertExtensions.Raise(CG.Applications.IAlert, CG.Applications.AlertType, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertExtensions.Raise(CG.Alerts.IAlert, CG.Alerts.AlertType, System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertExtensions.Raise(CG.Alerts.IAlert, CG.Alerts.AlertType, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.Raise(IAlert, AlertType, IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertExtensions.Raise(IAlert, AlertType, IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertExtensions.Raise*
+- uid: CG.Alerts.AlertExtensions.Raise*
   name: Raise
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_Raise_
-  commentId: Overload:CG.Applications.AlertExtensions.Raise
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_Raise_
+  commentId: Overload:CG.Alerts.AlertExtensions.Raise
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.Raise
+  fullName: CG.Alerts.AlertExtensions.Raise
   nameWithType: AlertExtensions.Raise
-- uid: CG.Applications.AlertExtensions.RaiseAudit(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseAudit(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
   name: RaiseAudit(IAlert, String, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseAudit_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseAudit(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseAudit(CG.Applications.IAlert, System.String, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseAudit_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseAudit(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseAudit(CG.Alerts.IAlert, System.String, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseAudit(IAlert, String, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseAudit*
+- uid: CG.Alerts.AlertExtensions.RaiseAudit*
   name: RaiseAudit
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseAudit_
-  commentId: Overload:CG.Applications.AlertExtensions.RaiseAudit
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseAudit_
+  commentId: Overload:CG.Alerts.AlertExtensions.RaiseAudit
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.RaiseAudit
+  fullName: CG.Alerts.AlertExtensions.RaiseAudit
   nameWithType: AlertExtensions.RaiseAudit
-- uid: CG.Applications.AlertExtensions.RaiseCritical(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseCritical(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
   name: RaiseCritical(IAlert, String, Exception, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseCritical(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseCritical(CG.Applications.IAlert, System.String, System.Exception, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseCritical(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseCritical(CG.Alerts.IAlert, System.String, System.Exception, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseCritical(IAlert, String, Exception, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseCritical(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseCritical(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
   name: RaiseCritical(IAlert, String, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseCritical(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseCritical(CG.Applications.IAlert, System.String, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseCritical(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseCritical(CG.Alerts.IAlert, System.String, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseCritical(IAlert, String, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseCritical*
+- uid: CG.Alerts.AlertExtensions.RaiseCritical*
   name: RaiseCritical
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_
-  commentId: Overload:CG.Applications.AlertExtensions.RaiseCritical
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_
+  commentId: Overload:CG.Alerts.AlertExtensions.RaiseCritical
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.RaiseCritical
+  fullName: CG.Alerts.AlertExtensions.RaiseCritical
   nameWithType: AlertExtensions.RaiseCritical
-- uid: CG.Applications.AlertExtensions.RaiseDebug(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseDebug(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
   name: RaiseDebug(IAlert, String, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseDebug_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseDebug(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseDebug(CG.Applications.IAlert, System.String, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseDebug_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseDebug(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseDebug(CG.Alerts.IAlert, System.String, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseDebug(IAlert, String, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseDebug*
+- uid: CG.Alerts.AlertExtensions.RaiseDebug*
   name: RaiseDebug
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseDebug_
-  commentId: Overload:CG.Applications.AlertExtensions.RaiseDebug
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseDebug_
+  commentId: Overload:CG.Alerts.AlertExtensions.RaiseDebug
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.RaiseDebug
+  fullName: CG.Alerts.AlertExtensions.RaiseDebug
   nameWithType: AlertExtensions.RaiseDebug
-- uid: CG.Applications.AlertExtensions.RaiseError(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseError(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
   name: RaiseError(IAlert, String, Exception, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseError(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseError(CG.Applications.IAlert, System.String, System.Exception, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseError(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseError(CG.Alerts.IAlert, System.String, System.Exception, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseError(IAlert, String, Exception, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseError(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseError(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
   name: RaiseError(IAlert, String, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseError(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseError(CG.Applications.IAlert, System.String, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseError(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseError(CG.Alerts.IAlert, System.String, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseError(IAlert, String, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseError*
+- uid: CG.Alerts.AlertExtensions.RaiseError*
   name: RaiseError
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_
-  commentId: Overload:CG.Applications.AlertExtensions.RaiseError
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_
+  commentId: Overload:CG.Alerts.AlertExtensions.RaiseError
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.RaiseError
+  fullName: CG.Alerts.AlertExtensions.RaiseError
   nameWithType: AlertExtensions.RaiseError
-- uid: CG.Applications.AlertExtensions.RaiseInformation(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseInformation(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
   name: RaiseInformation(IAlert, String, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseInformation_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseInformation(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseInformation(CG.Applications.IAlert, System.String, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseInformation_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseInformation(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseInformation(CG.Alerts.IAlert, System.String, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseInformation(IAlert, String, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseInformation*
+- uid: CG.Alerts.AlertExtensions.RaiseInformation*
   name: RaiseInformation
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseInformation_
-  commentId: Overload:CG.Applications.AlertExtensions.RaiseInformation
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseInformation_
+  commentId: Overload:CG.Alerts.AlertExtensions.RaiseInformation
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.RaiseInformation
+  fullName: CG.Alerts.AlertExtensions.RaiseInformation
   nameWithType: AlertExtensions.RaiseInformation
-- uid: CG.Applications.AlertExtensions.RaiseTrace(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseTrace(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
   name: RaiseTrace(IAlert, String, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseTrace_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseTrace(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseTrace(CG.Applications.IAlert, System.String, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseTrace_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseTrace(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseTrace(CG.Alerts.IAlert, System.String, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseTrace(IAlert, String, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseTrace*
+- uid: CG.Alerts.AlertExtensions.RaiseTrace*
   name: RaiseTrace
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseTrace_
-  commentId: Overload:CG.Applications.AlertExtensions.RaiseTrace
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseTrace_
+  commentId: Overload:CG.Alerts.AlertExtensions.RaiseTrace
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.RaiseTrace
+  fullName: CG.Alerts.AlertExtensions.RaiseTrace
   nameWithType: AlertExtensions.RaiseTrace
-- uid: CG.Applications.AlertExtensions.RaiseWarning(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseWarning(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
   name: RaiseWarning(IAlert, String, Exception, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseWarning(CG.Applications.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseWarning(CG.Applications.IAlert, System.String, System.Exception, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseWarning(CG.Alerts.IAlert,System.String,System.Exception,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseWarning(CG.Alerts.IAlert, System.String, System.Exception, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseWarning(IAlert, String, Exception, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseWarning(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.RaiseWarning(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
   name: RaiseWarning(IAlert, String, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.RaiseWarning(CG.Applications.IAlert,System.String,System.String,System.String,System.Int32)
-  fullName: CG.Applications.AlertExtensions.RaiseWarning(CG.Applications.IAlert, System.String, System.String, System.String, System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.RaiseWarning(CG.Alerts.IAlert,System.String,System.String,System.String,System.Int32)
+  fullName: CG.Alerts.AlertExtensions.RaiseWarning(CG.Alerts.IAlert, System.String, System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.RaiseWarning(IAlert, String, String, String, Int32)
-- uid: CG.Applications.AlertExtensions.RaiseWarning*
+- uid: CG.Alerts.AlertExtensions.RaiseWarning*
   name: RaiseWarning
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_
-  commentId: Overload:CG.Applications.AlertExtensions.RaiseWarning
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_
+  commentId: Overload:CG.Alerts.AlertExtensions.RaiseWarning
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.RaiseWarning
+  fullName: CG.Alerts.AlertExtensions.RaiseWarning
   nameWithType: AlertExtensions.RaiseWarning
-- uid: CG.Applications.AlertExtensions.SetHandler*
+- uid: CG.Alerts.AlertExtensions.SetHandler*
   name: SetHandler
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_SetHandler_
-  commentId: Overload:CG.Applications.AlertExtensions.SetHandler
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_SetHandler_
+  commentId: Overload:CG.Alerts.AlertExtensions.SetHandler
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.SetHandler
+  fullName: CG.Alerts.AlertExtensions.SetHandler
   nameWithType: AlertExtensions.SetHandler
-- uid: CG.Applications.AlertExtensions.SetHandler``1(CG.Applications.Alert,``0)
+- uid: CG.Alerts.AlertExtensions.SetHandler``1(CG.Alerts.Alert,``0)
   name: SetHandler<T>(Alert, T)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_SetHandler__1_CG_Applications_Alert___0_
-  commentId: M:CG.Applications.AlertExtensions.SetHandler``1(CG.Applications.Alert,``0)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_SetHandler__1_CG_Alerts_Alert___0_
+  commentId: M:CG.Alerts.AlertExtensions.SetHandler``1(CG.Alerts.Alert,``0)
   name.vb: SetHandler(Of T)(Alert, T)
-  fullName: CG.Applications.AlertExtensions.SetHandler<T>(CG.Applications.Alert, T)
-  fullName.vb: CG.Applications.AlertExtensions.SetHandler(Of T)(CG.Applications.Alert, T)
+  fullName: CG.Alerts.AlertExtensions.SetHandler<T>(CG.Alerts.Alert, T)
+  fullName.vb: CG.Alerts.AlertExtensions.SetHandler(Of T)(CG.Alerts.Alert, T)
   nameWithType: AlertExtensions.SetHandler<T>(Alert, T)
   nameWithType.vb: AlertExtensions.SetHandler(Of T)(Alert, T)
-- uid: CG.Applications.AlertExtensions.TryRaise(CG.Applications.IAlert,CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertExtensions.TryRaise(CG.Alerts.IAlert,CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: TryRaise(IAlert, AlertType, IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_TryRaise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertExtensions.TryRaise(CG.Applications.IAlert,CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_TryRaise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertExtensions.TryRaise(CG.Alerts.IAlert,CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: TryRaise(IAlert, AlertType, IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertExtensions.TryRaise(CG.Applications.IAlert, CG.Applications.AlertType, System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertExtensions.TryRaise(CG.Applications.IAlert, CG.Applications.AlertType, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertExtensions.TryRaise(CG.Alerts.IAlert, CG.Alerts.AlertType, System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertExtensions.TryRaise(CG.Alerts.IAlert, CG.Alerts.AlertType, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertExtensions.TryRaise(IAlert, AlertType, IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertExtensions.TryRaise(IAlert, AlertType, IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertExtensions.TryRaise*
+- uid: CG.Alerts.AlertExtensions.TryRaise*
   name: TryRaise
-  href: api/CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_TryRaise_
-  commentId: Overload:CG.Applications.AlertExtensions.TryRaise
+  href: api/CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_TryRaise_
+  commentId: Overload:CG.Alerts.AlertExtensions.TryRaise
   isSpec: "True"
-  fullName: CG.Applications.AlertExtensions.TryRaise
+  fullName: CG.Alerts.AlertExtensions.TryRaise
   nameWithType: AlertExtensions.TryRaise
-- uid: CG.Applications.AlertHandlerBase
+- uid: CG.Alerts.AlertHandlerBase
   name: AlertHandlerBase
-  href: api/CG.Applications.AlertHandlerBase.html
-  commentId: T:CG.Applications.AlertHandlerBase
-  fullName: CG.Applications.AlertHandlerBase
+  href: api/CG.Alerts.AlertHandlerBase.html
+  commentId: T:CG.Alerts.AlertHandlerBase
+  fullName: CG.Alerts.AlertHandlerBase
   nameWithType: AlertHandlerBase
-- uid: CG.Applications.AlertHandlerBase.HandleAlert(CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertHandlerBase.HandleAlert(CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleAlert(AlertType, IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertHandlerBase.HandleAlert(CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertHandlerBase.HandleAlert(CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleAlert(AlertType, IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertHandlerBase.HandleAlert(CG.Applications.AlertType, System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertHandlerBase.HandleAlert(CG.Applications.AlertType, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertHandlerBase.HandleAlert(CG.Alerts.AlertType, System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertHandlerBase.HandleAlert(CG.Alerts.AlertType, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertHandlerBase.HandleAlert(AlertType, IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertHandlerBase.HandleAlert(AlertType, IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertHandlerBase.HandleAlert*
+- uid: CG.Alerts.AlertHandlerBase.HandleAlert*
   name: HandleAlert
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleAlert_
-  commentId: Overload:CG.Applications.AlertHandlerBase.HandleAlert
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleAlert_
+  commentId: Overload:CG.Alerts.AlertHandlerBase.HandleAlert
   isSpec: "True"
-  fullName: CG.Applications.AlertHandlerBase.HandleAlert
+  fullName: CG.Alerts.AlertHandlerBase.HandleAlert
   nameWithType: AlertHandlerBase.HandleAlert
-- uid: CG.Applications.AlertHandlerBase.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertHandlerBase.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleAudit(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleAudit_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertHandlerBase.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleAudit_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertHandlerBase.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleAudit(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertHandlerBase.HandleAudit(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertHandlerBase.HandleAudit(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertHandlerBase.HandleAudit(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertHandlerBase.HandleAudit(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertHandlerBase.HandleAudit(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertHandlerBase.HandleAudit(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertHandlerBase.HandleAudit*
+- uid: CG.Alerts.AlertHandlerBase.HandleAudit*
   name: HandleAudit
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleAudit_
-  commentId: Overload:CG.Applications.AlertHandlerBase.HandleAudit
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleAudit_
+  commentId: Overload:CG.Alerts.AlertHandlerBase.HandleAudit
   isSpec: "True"
-  fullName: CG.Applications.AlertHandlerBase.HandleAudit
+  fullName: CG.Alerts.AlertHandlerBase.HandleAudit
   nameWithType: AlertHandlerBase.HandleAudit
-- uid: CG.Applications.AlertHandlerBase.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertHandlerBase.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleCritical(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleCritical_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertHandlerBase.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleCritical_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertHandlerBase.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleCritical(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertHandlerBase.HandleCritical(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertHandlerBase.HandleCritical(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertHandlerBase.HandleCritical(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertHandlerBase.HandleCritical(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertHandlerBase.HandleCritical(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertHandlerBase.HandleCritical(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertHandlerBase.HandleCritical*
+- uid: CG.Alerts.AlertHandlerBase.HandleCritical*
   name: HandleCritical
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleCritical_
-  commentId: Overload:CG.Applications.AlertHandlerBase.HandleCritical
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleCritical_
+  commentId: Overload:CG.Alerts.AlertHandlerBase.HandleCritical
   isSpec: "True"
-  fullName: CG.Applications.AlertHandlerBase.HandleCritical
+  fullName: CG.Alerts.AlertHandlerBase.HandleCritical
   nameWithType: AlertHandlerBase.HandleCritical
-- uid: CG.Applications.AlertHandlerBase.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertHandlerBase.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleDebug(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleDebug_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertHandlerBase.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleDebug_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertHandlerBase.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleDebug(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertHandlerBase.HandleDebug(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertHandlerBase.HandleDebug(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertHandlerBase.HandleDebug(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertHandlerBase.HandleDebug(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertHandlerBase.HandleDebug(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertHandlerBase.HandleDebug(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertHandlerBase.HandleDebug*
+- uid: CG.Alerts.AlertHandlerBase.HandleDebug*
   name: HandleDebug
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleDebug_
-  commentId: Overload:CG.Applications.AlertHandlerBase.HandleDebug
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleDebug_
+  commentId: Overload:CG.Alerts.AlertHandlerBase.HandleDebug
   isSpec: "True"
-  fullName: CG.Applications.AlertHandlerBase.HandleDebug
+  fullName: CG.Alerts.AlertHandlerBase.HandleDebug
   nameWithType: AlertHandlerBase.HandleDebug
-- uid: CG.Applications.AlertHandlerBase.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertHandlerBase.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleError(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleError_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertHandlerBase.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleError_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertHandlerBase.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleError(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertHandlerBase.HandleError(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertHandlerBase.HandleError(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertHandlerBase.HandleError(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertHandlerBase.HandleError(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertHandlerBase.HandleError(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertHandlerBase.HandleError(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertHandlerBase.HandleError*
+- uid: CG.Alerts.AlertHandlerBase.HandleError*
   name: HandleError
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleError_
-  commentId: Overload:CG.Applications.AlertHandlerBase.HandleError
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleError_
+  commentId: Overload:CG.Alerts.AlertHandlerBase.HandleError
   isSpec: "True"
-  fullName: CG.Applications.AlertHandlerBase.HandleError
+  fullName: CG.Alerts.AlertHandlerBase.HandleError
   nameWithType: AlertHandlerBase.HandleError
-- uid: CG.Applications.AlertHandlerBase.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertHandlerBase.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleInformation(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleInformation_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertHandlerBase.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleInformation_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertHandlerBase.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleInformation(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertHandlerBase.HandleInformation(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertHandlerBase.HandleInformation(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertHandlerBase.HandleInformation(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertHandlerBase.HandleInformation(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertHandlerBase.HandleInformation(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertHandlerBase.HandleInformation(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertHandlerBase.HandleInformation*
+- uid: CG.Alerts.AlertHandlerBase.HandleInformation*
   name: HandleInformation
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleInformation_
-  commentId: Overload:CG.Applications.AlertHandlerBase.HandleInformation
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleInformation_
+  commentId: Overload:CG.Alerts.AlertHandlerBase.HandleInformation
   isSpec: "True"
-  fullName: CG.Applications.AlertHandlerBase.HandleInformation
+  fullName: CG.Alerts.AlertHandlerBase.HandleInformation
   nameWithType: AlertHandlerBase.HandleInformation
-- uid: CG.Applications.AlertHandlerBase.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertHandlerBase.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleTrace(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleTrace_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertHandlerBase.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleTrace_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertHandlerBase.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleTrace(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertHandlerBase.HandleTrace(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertHandlerBase.HandleTrace(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertHandlerBase.HandleTrace(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertHandlerBase.HandleTrace(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertHandlerBase.HandleTrace(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertHandlerBase.HandleTrace(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertHandlerBase.HandleTrace*
+- uid: CG.Alerts.AlertHandlerBase.HandleTrace*
   name: HandleTrace
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleTrace_
-  commentId: Overload:CG.Applications.AlertHandlerBase.HandleTrace
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleTrace_
+  commentId: Overload:CG.Alerts.AlertHandlerBase.HandleTrace
   isSpec: "True"
-  fullName: CG.Applications.AlertHandlerBase.HandleTrace
+  fullName: CG.Alerts.AlertHandlerBase.HandleTrace
   nameWithType: AlertHandlerBase.HandleTrace
-- uid: CG.Applications.AlertHandlerBase.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.AlertHandlerBase.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleWarning(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleWarning_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.AlertHandlerBase.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleWarning_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.AlertHandlerBase.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleWarning(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.AlertHandlerBase.HandleWarning(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.AlertHandlerBase.HandleWarning(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.AlertHandlerBase.HandleWarning(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.AlertHandlerBase.HandleWarning(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: AlertHandlerBase.HandleWarning(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: AlertHandlerBase.HandleWarning(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.AlertHandlerBase.HandleWarning*
+- uid: CG.Alerts.AlertHandlerBase.HandleWarning*
   name: HandleWarning
-  href: api/CG.Applications.AlertHandlerBase.html#CG_Applications_AlertHandlerBase_HandleWarning_
-  commentId: Overload:CG.Applications.AlertHandlerBase.HandleWarning
+  href: api/CG.Alerts.AlertHandlerBase.html#CG_Alerts_AlertHandlerBase_HandleWarning_
+  commentId: Overload:CG.Alerts.AlertHandlerBase.HandleWarning
   isSpec: "True"
-  fullName: CG.Applications.AlertHandlerBase.HandleWarning
+  fullName: CG.Alerts.AlertHandlerBase.HandleWarning
   nameWithType: AlertHandlerBase.HandleWarning
-- uid: CG.Applications.AlertType
+- uid: CG.Alerts.AlertType
   name: AlertType
-  href: api/CG.Applications.AlertType.html
-  commentId: T:CG.Applications.AlertType
-  fullName: CG.Applications.AlertType
+  href: api/CG.Alerts.AlertType.html
+  commentId: T:CG.Alerts.AlertType
+  fullName: CG.Alerts.AlertType
   nameWithType: AlertType
-- uid: CG.Applications.AlertType.Audit
+- uid: CG.Alerts.AlertType.Audit
   name: Audit
-  href: api/CG.Applications.AlertType.html#CG_Applications_AlertType_Audit
-  commentId: F:CG.Applications.AlertType.Audit
-  fullName: CG.Applications.AlertType.Audit
+  href: api/CG.Alerts.AlertType.html#CG_Alerts_AlertType_Audit
+  commentId: F:CG.Alerts.AlertType.Audit
+  fullName: CG.Alerts.AlertType.Audit
   nameWithType: AlertType.Audit
-- uid: CG.Applications.AlertType.Critical
+- uid: CG.Alerts.AlertType.Critical
   name: Critical
-  href: api/CG.Applications.AlertType.html#CG_Applications_AlertType_Critical
-  commentId: F:CG.Applications.AlertType.Critical
-  fullName: CG.Applications.AlertType.Critical
+  href: api/CG.Alerts.AlertType.html#CG_Alerts_AlertType_Critical
+  commentId: F:CG.Alerts.AlertType.Critical
+  fullName: CG.Alerts.AlertType.Critical
   nameWithType: AlertType.Critical
-- uid: CG.Applications.AlertType.Debug
+- uid: CG.Alerts.AlertType.Debug
   name: Debug
-  href: api/CG.Applications.AlertType.html#CG_Applications_AlertType_Debug
-  commentId: F:CG.Applications.AlertType.Debug
-  fullName: CG.Applications.AlertType.Debug
+  href: api/CG.Alerts.AlertType.html#CG_Alerts_AlertType_Debug
+  commentId: F:CG.Alerts.AlertType.Debug
+  fullName: CG.Alerts.AlertType.Debug
   nameWithType: AlertType.Debug
-- uid: CG.Applications.AlertType.Error
+- uid: CG.Alerts.AlertType.Error
   name: Error
-  href: api/CG.Applications.AlertType.html#CG_Applications_AlertType_Error
-  commentId: F:CG.Applications.AlertType.Error
-  fullName: CG.Applications.AlertType.Error
+  href: api/CG.Alerts.AlertType.html#CG_Alerts_AlertType_Error
+  commentId: F:CG.Alerts.AlertType.Error
+  fullName: CG.Alerts.AlertType.Error
   nameWithType: AlertType.Error
-- uid: CG.Applications.AlertType.Information
+- uid: CG.Alerts.AlertType.Information
   name: Information
-  href: api/CG.Applications.AlertType.html#CG_Applications_AlertType_Information
-  commentId: F:CG.Applications.AlertType.Information
-  fullName: CG.Applications.AlertType.Information
+  href: api/CG.Alerts.AlertType.html#CG_Alerts_AlertType_Information
+  commentId: F:CG.Alerts.AlertType.Information
+  fullName: CG.Alerts.AlertType.Information
   nameWithType: AlertType.Information
-- uid: CG.Applications.AlertType.Trace
+- uid: CG.Alerts.AlertType.Trace
   name: Trace
-  href: api/CG.Applications.AlertType.html#CG_Applications_AlertType_Trace
-  commentId: F:CG.Applications.AlertType.Trace
-  fullName: CG.Applications.AlertType.Trace
+  href: api/CG.Alerts.AlertType.html#CG_Alerts_AlertType_Trace
+  commentId: F:CG.Alerts.AlertType.Trace
+  fullName: CG.Alerts.AlertType.Trace
   nameWithType: AlertType.Trace
-- uid: CG.Applications.AlertType.Warning
+- uid: CG.Alerts.AlertType.Warning
   name: Warning
-  href: api/CG.Applications.AlertType.html#CG_Applications_AlertType_Warning
-  commentId: F:CG.Applications.AlertType.Warning
-  fullName: CG.Applications.AlertType.Warning
+  href: api/CG.Alerts.AlertType.html#CG_Alerts_AlertType_Warning
+  commentId: F:CG.Alerts.AlertType.Warning
+  fullName: CG.Alerts.AlertType.Warning
   nameWithType: AlertType.Warning
-- uid: CG.Applications.DefaultAlertHandler
+- uid: CG.Alerts.DefaultAlertHandler
   name: DefaultAlertHandler
-  href: api/CG.Applications.DefaultAlertHandler.html
-  commentId: T:CG.Applications.DefaultAlertHandler
-  fullName: CG.Applications.DefaultAlertHandler
+  href: api/CG.Alerts.DefaultAlertHandler.html
+  commentId: T:CG.Alerts.DefaultAlertHandler
+  fullName: CG.Alerts.DefaultAlertHandler
   nameWithType: DefaultAlertHandler
-- uid: CG.Applications.DefaultAlertHandler.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.DefaultAlertHandler.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleAudit(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleAudit_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.DefaultAlertHandler.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleAudit_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.DefaultAlertHandler.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleAudit(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.DefaultAlertHandler.HandleAudit(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.DefaultAlertHandler.HandleAudit(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.DefaultAlertHandler.HandleAudit(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.DefaultAlertHandler.HandleAudit(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: DefaultAlertHandler.HandleAudit(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: DefaultAlertHandler.HandleAudit(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.DefaultAlertHandler.HandleAudit*
+- uid: CG.Alerts.DefaultAlertHandler.HandleAudit*
   name: HandleAudit
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleAudit_
-  commentId: Overload:CG.Applications.DefaultAlertHandler.HandleAudit
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleAudit_
+  commentId: Overload:CG.Alerts.DefaultAlertHandler.HandleAudit
   isSpec: "True"
-  fullName: CG.Applications.DefaultAlertHandler.HandleAudit
+  fullName: CG.Alerts.DefaultAlertHandler.HandleAudit
   nameWithType: DefaultAlertHandler.HandleAudit
-- uid: CG.Applications.DefaultAlertHandler.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.DefaultAlertHandler.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleCritical(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleCritical_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.DefaultAlertHandler.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleCritical_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.DefaultAlertHandler.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleCritical(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.DefaultAlertHandler.HandleCritical(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.DefaultAlertHandler.HandleCritical(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.DefaultAlertHandler.HandleCritical(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.DefaultAlertHandler.HandleCritical(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: DefaultAlertHandler.HandleCritical(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: DefaultAlertHandler.HandleCritical(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.DefaultAlertHandler.HandleCritical*
+- uid: CG.Alerts.DefaultAlertHandler.HandleCritical*
   name: HandleCritical
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleCritical_
-  commentId: Overload:CG.Applications.DefaultAlertHandler.HandleCritical
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleCritical_
+  commentId: Overload:CG.Alerts.DefaultAlertHandler.HandleCritical
   isSpec: "True"
-  fullName: CG.Applications.DefaultAlertHandler.HandleCritical
+  fullName: CG.Alerts.DefaultAlertHandler.HandleCritical
   nameWithType: DefaultAlertHandler.HandleCritical
-- uid: CG.Applications.DefaultAlertHandler.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.DefaultAlertHandler.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleDebug(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleDebug_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.DefaultAlertHandler.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleDebug_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.DefaultAlertHandler.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleDebug(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.DefaultAlertHandler.HandleDebug(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.DefaultAlertHandler.HandleDebug(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.DefaultAlertHandler.HandleDebug(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.DefaultAlertHandler.HandleDebug(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: DefaultAlertHandler.HandleDebug(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: DefaultAlertHandler.HandleDebug(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.DefaultAlertHandler.HandleDebug*
+- uid: CG.Alerts.DefaultAlertHandler.HandleDebug*
   name: HandleDebug
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleDebug_
-  commentId: Overload:CG.Applications.DefaultAlertHandler.HandleDebug
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleDebug_
+  commentId: Overload:CG.Alerts.DefaultAlertHandler.HandleDebug
   isSpec: "True"
-  fullName: CG.Applications.DefaultAlertHandler.HandleDebug
+  fullName: CG.Alerts.DefaultAlertHandler.HandleDebug
   nameWithType: DefaultAlertHandler.HandleDebug
-- uid: CG.Applications.DefaultAlertHandler.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.DefaultAlertHandler.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleError(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleError_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.DefaultAlertHandler.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleError_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.DefaultAlertHandler.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleError(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.DefaultAlertHandler.HandleError(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.DefaultAlertHandler.HandleError(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.DefaultAlertHandler.HandleError(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.DefaultAlertHandler.HandleError(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: DefaultAlertHandler.HandleError(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: DefaultAlertHandler.HandleError(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.DefaultAlertHandler.HandleError*
+- uid: CG.Alerts.DefaultAlertHandler.HandleError*
   name: HandleError
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleError_
-  commentId: Overload:CG.Applications.DefaultAlertHandler.HandleError
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleError_
+  commentId: Overload:CG.Alerts.DefaultAlertHandler.HandleError
   isSpec: "True"
-  fullName: CG.Applications.DefaultAlertHandler.HandleError
+  fullName: CG.Alerts.DefaultAlertHandler.HandleError
   nameWithType: DefaultAlertHandler.HandleError
-- uid: CG.Applications.DefaultAlertHandler.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.DefaultAlertHandler.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleInformation(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleInformation_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.DefaultAlertHandler.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleInformation_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.DefaultAlertHandler.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleInformation(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.DefaultAlertHandler.HandleInformation(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.DefaultAlertHandler.HandleInformation(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.DefaultAlertHandler.HandleInformation(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.DefaultAlertHandler.HandleInformation(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: DefaultAlertHandler.HandleInformation(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: DefaultAlertHandler.HandleInformation(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.DefaultAlertHandler.HandleInformation*
+- uid: CG.Alerts.DefaultAlertHandler.HandleInformation*
   name: HandleInformation
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleInformation_
-  commentId: Overload:CG.Applications.DefaultAlertHandler.HandleInformation
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleInformation_
+  commentId: Overload:CG.Alerts.DefaultAlertHandler.HandleInformation
   isSpec: "True"
-  fullName: CG.Applications.DefaultAlertHandler.HandleInformation
+  fullName: CG.Alerts.DefaultAlertHandler.HandleInformation
   nameWithType: DefaultAlertHandler.HandleInformation
-- uid: CG.Applications.DefaultAlertHandler.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.DefaultAlertHandler.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleTrace(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleTrace_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.DefaultAlertHandler.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleTrace_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.DefaultAlertHandler.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleTrace(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.DefaultAlertHandler.HandleTrace(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.DefaultAlertHandler.HandleTrace(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.DefaultAlertHandler.HandleTrace(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.DefaultAlertHandler.HandleTrace(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: DefaultAlertHandler.HandleTrace(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: DefaultAlertHandler.HandleTrace(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.DefaultAlertHandler.HandleTrace*
+- uid: CG.Alerts.DefaultAlertHandler.HandleTrace*
   name: HandleTrace
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleTrace_
-  commentId: Overload:CG.Applications.DefaultAlertHandler.HandleTrace
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleTrace_
+  commentId: Overload:CG.Alerts.DefaultAlertHandler.HandleTrace
   isSpec: "True"
-  fullName: CG.Applications.DefaultAlertHandler.HandleTrace
+  fullName: CG.Alerts.DefaultAlertHandler.HandleTrace
   nameWithType: DefaultAlertHandler.HandleTrace
-- uid: CG.Applications.DefaultAlertHandler.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.DefaultAlertHandler.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleWarning(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleWarning_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.DefaultAlertHandler.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleWarning_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.DefaultAlertHandler.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleWarning(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.DefaultAlertHandler.HandleWarning(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.DefaultAlertHandler.HandleWarning(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.DefaultAlertHandler.HandleWarning(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.DefaultAlertHandler.HandleWarning(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: DefaultAlertHandler.HandleWarning(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: DefaultAlertHandler.HandleWarning(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.DefaultAlertHandler.HandleWarning*
+- uid: CG.Alerts.DefaultAlertHandler.HandleWarning*
   name: HandleWarning
-  href: api/CG.Applications.DefaultAlertHandler.html#CG_Applications_DefaultAlertHandler_HandleWarning_
-  commentId: Overload:CG.Applications.DefaultAlertHandler.HandleWarning
+  href: api/CG.Alerts.DefaultAlertHandler.html#CG_Alerts_DefaultAlertHandler_HandleWarning_
+  commentId: Overload:CG.Alerts.DefaultAlertHandler.HandleWarning
   isSpec: "True"
-  fullName: CG.Applications.DefaultAlertHandler.HandleWarning
+  fullName: CG.Alerts.DefaultAlertHandler.HandleWarning
   nameWithType: DefaultAlertHandler.HandleWarning
-- uid: CG.Applications.HostBuilderExtensions
+- uid: CG.Alerts.HostBuilderExtensions
   name: HostBuilderExtensions
-  href: api/CG.Applications.HostBuilderExtensions.html
-  commentId: T:CG.Applications.HostBuilderExtensions
-  fullName: CG.Applications.HostBuilderExtensions
+  href: api/CG.Alerts.HostBuilderExtensions.html
+  commentId: T:CG.Alerts.HostBuilderExtensions
+  fullName: CG.Alerts.HostBuilderExtensions
   nameWithType: HostBuilderExtensions
-- uid: CG.Applications.HostBuilderExtensions.ConfigureApplicationOptions*
+- uid: CG.Alerts.HostBuilderExtensions.ConfigureApplicationOptions*
   name: ConfigureApplicationOptions
-  href: api/CG.Applications.HostBuilderExtensions.html#CG_Applications_HostBuilderExtensions_ConfigureApplicationOptions_
-  commentId: Overload:CG.Applications.HostBuilderExtensions.ConfigureApplicationOptions
+  href: api/CG.Alerts.HostBuilderExtensions.html#CG_Alerts_HostBuilderExtensions_ConfigureApplicationOptions_
+  commentId: Overload:CG.Alerts.HostBuilderExtensions.ConfigureApplicationOptions
   isSpec: "True"
-  fullName: CG.Applications.HostBuilderExtensions.ConfigureApplicationOptions
+  fullName: CG.Alerts.HostBuilderExtensions.ConfigureApplicationOptions
   nameWithType: HostBuilderExtensions.ConfigureApplicationOptions
-- uid: CG.Applications.HostBuilderExtensions.ConfigureApplicationOptions``1(Microsoft.Extensions.Hosting.IHostBuilder)
+- uid: CG.Alerts.HostBuilderExtensions.ConfigureApplicationOptions``1(Microsoft.Extensions.Hosting.IHostBuilder)
   name: ConfigureApplicationOptions<TOptions>(IHostBuilder)
-  href: api/CG.Applications.HostBuilderExtensions.html#CG_Applications_HostBuilderExtensions_ConfigureApplicationOptions__1_Microsoft_Extensions_Hosting_IHostBuilder_
-  commentId: M:CG.Applications.HostBuilderExtensions.ConfigureApplicationOptions``1(Microsoft.Extensions.Hosting.IHostBuilder)
+  href: api/CG.Alerts.HostBuilderExtensions.html#CG_Alerts_HostBuilderExtensions_ConfigureApplicationOptions__1_Microsoft_Extensions_Hosting_IHostBuilder_
+  commentId: M:CG.Alerts.HostBuilderExtensions.ConfigureApplicationOptions``1(Microsoft.Extensions.Hosting.IHostBuilder)
   name.vb: ConfigureApplicationOptions(Of TOptions)(IHostBuilder)
-  fullName: CG.Applications.HostBuilderExtensions.ConfigureApplicationOptions<TOptions>(Microsoft.Extensions.Hosting.IHostBuilder)
-  fullName.vb: CG.Applications.HostBuilderExtensions.ConfigureApplicationOptions(Of TOptions)(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName: CG.Alerts.HostBuilderExtensions.ConfigureApplicationOptions<TOptions>(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName.vb: CG.Alerts.HostBuilderExtensions.ConfigureApplicationOptions(Of TOptions)(Microsoft.Extensions.Hosting.IHostBuilder)
   nameWithType: HostBuilderExtensions.ConfigureApplicationOptions<TOptions>(IHostBuilder)
   nameWithType.vb: HostBuilderExtensions.ConfigureApplicationOptions(Of TOptions)(IHostBuilder)
-- uid: CG.Applications.HostExtensions
+- uid: CG.Alerts.HostExtensions
   name: HostExtensions
-  href: api/CG.Applications.HostExtensions.html
-  commentId: T:CG.Applications.HostExtensions
-  fullName: CG.Applications.HostExtensions
+  href: api/CG.Alerts.HostExtensions.html
+  commentId: T:CG.Alerts.HostExtensions
+  fullName: CG.Alerts.HostExtensions
   nameWithType: HostExtensions
-- uid: CG.Applications.HostExtensions.SetStandardAlertHandler(Microsoft.Extensions.Hosting.IHost)
+- uid: CG.Alerts.HostExtensions.SetStandardAlertHandler(Microsoft.Extensions.Hosting.IHost)
   name: SetStandardAlertHandler(IHost)
-  href: api/CG.Applications.HostExtensions.html#CG_Applications_HostExtensions_SetStandardAlertHandler_Microsoft_Extensions_Hosting_IHost_
-  commentId: M:CG.Applications.HostExtensions.SetStandardAlertHandler(Microsoft.Extensions.Hosting.IHost)
-  fullName: CG.Applications.HostExtensions.SetStandardAlertHandler(Microsoft.Extensions.Hosting.IHost)
+  href: api/CG.Alerts.HostExtensions.html#CG_Alerts_HostExtensions_SetStandardAlertHandler_Microsoft_Extensions_Hosting_IHost_
+  commentId: M:CG.Alerts.HostExtensions.SetStandardAlertHandler(Microsoft.Extensions.Hosting.IHost)
+  fullName: CG.Alerts.HostExtensions.SetStandardAlertHandler(Microsoft.Extensions.Hosting.IHost)
   nameWithType: HostExtensions.SetStandardAlertHandler(IHost)
-- uid: CG.Applications.HostExtensions.SetStandardAlertHandler*
+- uid: CG.Alerts.HostExtensions.SetStandardAlertHandler*
   name: SetStandardAlertHandler
-  href: api/CG.Applications.HostExtensions.html#CG_Applications_HostExtensions_SetStandardAlertHandler_
-  commentId: Overload:CG.Applications.HostExtensions.SetStandardAlertHandler
+  href: api/CG.Alerts.HostExtensions.html#CG_Alerts_HostExtensions_SetStandardAlertHandler_
+  commentId: Overload:CG.Alerts.HostExtensions.SetStandardAlertHandler
   isSpec: "True"
-  fullName: CG.Applications.HostExtensions.SetStandardAlertHandler
+  fullName: CG.Alerts.HostExtensions.SetStandardAlertHandler
   nameWithType: HostExtensions.SetStandardAlertHandler
-- uid: CG.Applications.IAlert
+- uid: CG.Alerts.IAlert
   name: IAlert
-  href: api/CG.Applications.IAlert.html
-  commentId: T:CG.Applications.IAlert
-  fullName: CG.Applications.IAlert
+  href: api/CG.Alerts.IAlert.html
+  commentId: T:CG.Alerts.IAlert
+  fullName: CG.Alerts.IAlert
   nameWithType: IAlert
-- uid: CG.Applications.IAlert.Handler
+- uid: CG.Alerts.IAlert.Handler
   name: Handler
-  href: api/CG.Applications.IAlert.html#CG_Applications_IAlert_Handler
-  commentId: P:CG.Applications.IAlert.Handler
-  fullName: CG.Applications.IAlert.Handler
+  href: api/CG.Alerts.IAlert.html#CG_Alerts_IAlert_Handler
+  commentId: P:CG.Alerts.IAlert.Handler
+  fullName: CG.Alerts.IAlert.Handler
   nameWithType: IAlert.Handler
-- uid: CG.Applications.IAlert.Handler*
+- uid: CG.Alerts.IAlert.Handler*
   name: Handler
-  href: api/CG.Applications.IAlert.html#CG_Applications_IAlert_Handler_
-  commentId: Overload:CG.Applications.IAlert.Handler
+  href: api/CG.Alerts.IAlert.html#CG_Alerts_IAlert_Handler_
+  commentId: Overload:CG.Alerts.IAlert.Handler
   isSpec: "True"
-  fullName: CG.Applications.IAlert.Handler
+  fullName: CG.Alerts.IAlert.Handler
   nameWithType: IAlert.Handler
-- uid: CG.Applications.IAlertHandler
+- uid: CG.Alerts.IAlertHandler
   name: IAlertHandler
-  href: api/CG.Applications.IAlertHandler.html
-  commentId: T:CG.Applications.IAlertHandler
-  fullName: CG.Applications.IAlertHandler
+  href: api/CG.Alerts.IAlertHandler.html
+  commentId: T:CG.Alerts.IAlertHandler
+  fullName: CG.Alerts.IAlertHandler
   nameWithType: IAlertHandler
-- uid: CG.Applications.IAlertHandler.HandleAlert(CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.IAlertHandler.HandleAlert(CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleAlert(AlertType, IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.IAlertHandler.html#CG_Applications_IAlertHandler_HandleAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.IAlertHandler.HandleAlert(CG.Applications.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.IAlertHandler.html#CG_Alerts_IAlertHandler_HandleAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.IAlertHandler.HandleAlert(CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleAlert(AlertType, IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.IAlertHandler.HandleAlert(CG.Applications.AlertType, System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.IAlertHandler.HandleAlert(CG.Applications.AlertType, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.IAlertHandler.HandleAlert(CG.Alerts.AlertType, System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.IAlertHandler.HandleAlert(CG.Alerts.AlertType, System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: IAlertHandler.HandleAlert(AlertType, IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: IAlertHandler.HandleAlert(AlertType, IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.IAlertHandler.HandleAlert*
+- uid: CG.Alerts.IAlertHandler.HandleAlert*
   name: HandleAlert
-  href: api/CG.Applications.IAlertHandler.html#CG_Applications_IAlertHandler_HandleAlert_
-  commentId: Overload:CG.Applications.IAlertHandler.HandleAlert
+  href: api/CG.Alerts.IAlertHandler.html#CG_Alerts_IAlertHandler_HandleAlert_
+  commentId: Overload:CG.Alerts.IAlertHandler.HandleAlert
   isSpec: "True"
-  fullName: CG.Applications.IAlertHandler.HandleAlert
+  fullName: CG.Alerts.IAlertHandler.HandleAlert
   nameWithType: IAlertHandler.HandleAlert
-- uid: CG.Applications.IApplication
+- uid: CG.Alerts.IApplication
   name: IApplication
-  href: api/CG.Applications.IApplication.html
-  commentId: T:CG.Applications.IApplication
-  fullName: CG.Applications.IApplication
+  href: api/CG.Alerts.IApplication.html
+  commentId: T:CG.Alerts.IApplication
+  fullName: CG.Alerts.IApplication
   nameWithType: IApplication
-- uid: CG.Applications.Options
-  name: CG.Applications.Options
-  href: api/CG.Applications.Options.html
-  commentId: N:CG.Applications.Options
-  fullName: CG.Applications.Options
-  nameWithType: CG.Applications.Options
-- uid: CG.Applications.Options.AlertOptions
+- uid: CG.Alerts.Options
+  name: CG.Alerts.Options
+  href: api/CG.Alerts.Options.html
+  commentId: N:CG.Alerts.Options
+  fullName: CG.Alerts.Options
+  nameWithType: CG.Alerts.Options
+- uid: CG.Alerts.Options.AlertOptions
   name: AlertOptions
-  href: api/CG.Applications.Options.AlertOptions.html
-  commentId: T:CG.Applications.Options.AlertOptions
-  fullName: CG.Applications.Options.AlertOptions
+  href: api/CG.Alerts.Options.AlertOptions.html
+  commentId: T:CG.Alerts.Options.AlertOptions
+  fullName: CG.Alerts.Options.AlertOptions
   nameWithType: AlertOptions
-- uid: CG.Applications.Options.AlertOptions.AuditAlerts
+- uid: CG.Alerts.Options.AlertOptions.AuditAlerts
   name: AuditAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_AuditAlerts
-  commentId: P:CG.Applications.Options.AlertOptions.AuditAlerts
-  fullName: CG.Applications.Options.AlertOptions.AuditAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_AuditAlerts
+  commentId: P:CG.Alerts.Options.AlertOptions.AuditAlerts
+  fullName: CG.Alerts.Options.AlertOptions.AuditAlerts
   nameWithType: AlertOptions.AuditAlerts
-- uid: CG.Applications.Options.AlertOptions.AuditAlerts*
+- uid: CG.Alerts.Options.AlertOptions.AuditAlerts*
   name: AuditAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_AuditAlerts_
-  commentId: Overload:CG.Applications.Options.AlertOptions.AuditAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_AuditAlerts_
+  commentId: Overload:CG.Alerts.Options.AlertOptions.AuditAlerts
   isSpec: "True"
-  fullName: CG.Applications.Options.AlertOptions.AuditAlerts
+  fullName: CG.Alerts.Options.AlertOptions.AuditAlerts
   nameWithType: AlertOptions.AuditAlerts
-- uid: CG.Applications.Options.AlertOptions.CriticalAlerts
+- uid: CG.Alerts.Options.AlertOptions.CriticalAlerts
   name: CriticalAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_CriticalAlerts
-  commentId: P:CG.Applications.Options.AlertOptions.CriticalAlerts
-  fullName: CG.Applications.Options.AlertOptions.CriticalAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_CriticalAlerts
+  commentId: P:CG.Alerts.Options.AlertOptions.CriticalAlerts
+  fullName: CG.Alerts.Options.AlertOptions.CriticalAlerts
   nameWithType: AlertOptions.CriticalAlerts
-- uid: CG.Applications.Options.AlertOptions.CriticalAlerts*
+- uid: CG.Alerts.Options.AlertOptions.CriticalAlerts*
   name: CriticalAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_CriticalAlerts_
-  commentId: Overload:CG.Applications.Options.AlertOptions.CriticalAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_CriticalAlerts_
+  commentId: Overload:CG.Alerts.Options.AlertOptions.CriticalAlerts
   isSpec: "True"
-  fullName: CG.Applications.Options.AlertOptions.CriticalAlerts
+  fullName: CG.Alerts.Options.AlertOptions.CriticalAlerts
   nameWithType: AlertOptions.CriticalAlerts
-- uid: CG.Applications.Options.AlertOptions.DebugAlerts
+- uid: CG.Alerts.Options.AlertOptions.DebugAlerts
   name: DebugAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_DebugAlerts
-  commentId: P:CG.Applications.Options.AlertOptions.DebugAlerts
-  fullName: CG.Applications.Options.AlertOptions.DebugAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_DebugAlerts
+  commentId: P:CG.Alerts.Options.AlertOptions.DebugAlerts
+  fullName: CG.Alerts.Options.AlertOptions.DebugAlerts
   nameWithType: AlertOptions.DebugAlerts
-- uid: CG.Applications.Options.AlertOptions.DebugAlerts*
+- uid: CG.Alerts.Options.AlertOptions.DebugAlerts*
   name: DebugAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_DebugAlerts_
-  commentId: Overload:CG.Applications.Options.AlertOptions.DebugAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_DebugAlerts_
+  commentId: Overload:CG.Alerts.Options.AlertOptions.DebugAlerts
   isSpec: "True"
-  fullName: CG.Applications.Options.AlertOptions.DebugAlerts
+  fullName: CG.Alerts.Options.AlertOptions.DebugAlerts
   nameWithType: AlertOptions.DebugAlerts
-- uid: CG.Applications.Options.AlertOptions.ErrorAlerts
+- uid: CG.Alerts.Options.AlertOptions.ErrorAlerts
   name: ErrorAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_ErrorAlerts
-  commentId: P:CG.Applications.Options.AlertOptions.ErrorAlerts
-  fullName: CG.Applications.Options.AlertOptions.ErrorAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_ErrorAlerts
+  commentId: P:CG.Alerts.Options.AlertOptions.ErrorAlerts
+  fullName: CG.Alerts.Options.AlertOptions.ErrorAlerts
   nameWithType: AlertOptions.ErrorAlerts
-- uid: CG.Applications.Options.AlertOptions.ErrorAlerts*
+- uid: CG.Alerts.Options.AlertOptions.ErrorAlerts*
   name: ErrorAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_ErrorAlerts_
-  commentId: Overload:CG.Applications.Options.AlertOptions.ErrorAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_ErrorAlerts_
+  commentId: Overload:CG.Alerts.Options.AlertOptions.ErrorAlerts
   isSpec: "True"
-  fullName: CG.Applications.Options.AlertOptions.ErrorAlerts
+  fullName: CG.Alerts.Options.AlertOptions.ErrorAlerts
   nameWithType: AlertOptions.ErrorAlerts
-- uid: CG.Applications.Options.AlertOptions.InformationAlerts
+- uid: CG.Alerts.Options.AlertOptions.InformationAlerts
   name: InformationAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_InformationAlerts
-  commentId: P:CG.Applications.Options.AlertOptions.InformationAlerts
-  fullName: CG.Applications.Options.AlertOptions.InformationAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_InformationAlerts
+  commentId: P:CG.Alerts.Options.AlertOptions.InformationAlerts
+  fullName: CG.Alerts.Options.AlertOptions.InformationAlerts
   nameWithType: AlertOptions.InformationAlerts
-- uid: CG.Applications.Options.AlertOptions.InformationAlerts*
+- uid: CG.Alerts.Options.AlertOptions.InformationAlerts*
   name: InformationAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_InformationAlerts_
-  commentId: Overload:CG.Applications.Options.AlertOptions.InformationAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_InformationAlerts_
+  commentId: Overload:CG.Alerts.Options.AlertOptions.InformationAlerts
   isSpec: "True"
-  fullName: CG.Applications.Options.AlertOptions.InformationAlerts
+  fullName: CG.Alerts.Options.AlertOptions.InformationAlerts
   nameWithType: AlertOptions.InformationAlerts
-- uid: CG.Applications.Options.AlertOptions.TraceAlerts
+- uid: CG.Alerts.Options.AlertOptions.TraceAlerts
   name: TraceAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_TraceAlerts
-  commentId: P:CG.Applications.Options.AlertOptions.TraceAlerts
-  fullName: CG.Applications.Options.AlertOptions.TraceAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_TraceAlerts
+  commentId: P:CG.Alerts.Options.AlertOptions.TraceAlerts
+  fullName: CG.Alerts.Options.AlertOptions.TraceAlerts
   nameWithType: AlertOptions.TraceAlerts
-- uid: CG.Applications.Options.AlertOptions.TraceAlerts*
+- uid: CG.Alerts.Options.AlertOptions.TraceAlerts*
   name: TraceAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_TraceAlerts_
-  commentId: Overload:CG.Applications.Options.AlertOptions.TraceAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_TraceAlerts_
+  commentId: Overload:CG.Alerts.Options.AlertOptions.TraceAlerts
   isSpec: "True"
-  fullName: CG.Applications.Options.AlertOptions.TraceAlerts
+  fullName: CG.Alerts.Options.AlertOptions.TraceAlerts
   nameWithType: AlertOptions.TraceAlerts
-- uid: CG.Applications.Options.AlertOptions.WarningAlerts
+- uid: CG.Alerts.Options.AlertOptions.WarningAlerts
   name: WarningAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_WarningAlerts
-  commentId: P:CG.Applications.Options.AlertOptions.WarningAlerts
-  fullName: CG.Applications.Options.AlertOptions.WarningAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_WarningAlerts
+  commentId: P:CG.Alerts.Options.AlertOptions.WarningAlerts
+  fullName: CG.Alerts.Options.AlertOptions.WarningAlerts
   nameWithType: AlertOptions.WarningAlerts
-- uid: CG.Applications.Options.AlertOptions.WarningAlerts*
+- uid: CG.Alerts.Options.AlertOptions.WarningAlerts*
   name: WarningAlerts
-  href: api/CG.Applications.Options.AlertOptions.html#CG_Applications_Options_AlertOptions_WarningAlerts_
-  commentId: Overload:CG.Applications.Options.AlertOptions.WarningAlerts
+  href: api/CG.Alerts.Options.AlertOptions.html#CG_Alerts_Options_AlertOptions_WarningAlerts_
+  commentId: Overload:CG.Alerts.Options.AlertOptions.WarningAlerts
   isSpec: "True"
-  fullName: CG.Applications.Options.AlertOptions.WarningAlerts
+  fullName: CG.Alerts.Options.AlertOptions.WarningAlerts
   nameWithType: AlertOptions.WarningAlerts
-- uid: CG.Applications.Options.ApplicationOptions
+- uid: CG.Alerts.Options.ApplicationOptions
   name: ApplicationOptions
-  href: api/CG.Applications.Options.ApplicationOptions.html
-  commentId: T:CG.Applications.Options.ApplicationOptions
-  fullName: CG.Applications.Options.ApplicationOptions
+  href: api/CG.Alerts.Options.ApplicationOptions.html
+  commentId: T:CG.Alerts.Options.ApplicationOptions
+  fullName: CG.Alerts.Options.ApplicationOptions
   nameWithType: ApplicationOptions
-- uid: CG.Applications.Options.ApplicationOptions.Alerts
+- uid: CG.Alerts.Options.ApplicationOptions.Alerts
   name: Alerts
-  href: api/CG.Applications.Options.ApplicationOptions.html#CG_Applications_Options_ApplicationOptions_Alerts
-  commentId: P:CG.Applications.Options.ApplicationOptions.Alerts
-  fullName: CG.Applications.Options.ApplicationOptions.Alerts
+  href: api/CG.Alerts.Options.ApplicationOptions.html#CG_Alerts_Options_ApplicationOptions_Alerts
+  commentId: P:CG.Alerts.Options.ApplicationOptions.Alerts
+  fullName: CG.Alerts.Options.ApplicationOptions.Alerts
   nameWithType: ApplicationOptions.Alerts
-- uid: CG.Applications.Options.ApplicationOptions.Alerts*
+- uid: CG.Alerts.Options.ApplicationOptions.Alerts*
   name: Alerts
-  href: api/CG.Applications.Options.ApplicationOptions.html#CG_Applications_Options_ApplicationOptions_Alerts_
-  commentId: Overload:CG.Applications.Options.ApplicationOptions.Alerts
+  href: api/CG.Alerts.Options.ApplicationOptions.html#CG_Alerts_Options_ApplicationOptions_Alerts_
+  commentId: Overload:CG.Alerts.Options.ApplicationOptions.Alerts
   isSpec: "True"
-  fullName: CG.Applications.Options.ApplicationOptions.Alerts
+  fullName: CG.Alerts.Options.ApplicationOptions.Alerts
   nameWithType: ApplicationOptions.Alerts
-- uid: CG.Applications.Options.AuditAlertOptions
+- uid: CG.Alerts.Options.AuditAlertOptions
   name: AuditAlertOptions
-  href: api/CG.Applications.Options.AuditAlertOptions.html
-  commentId: T:CG.Applications.Options.AuditAlertOptions
-  fullName: CG.Applications.Options.AuditAlertOptions
+  href: api/CG.Alerts.Options.AuditAlertOptions.html
+  commentId: T:CG.Alerts.Options.AuditAlertOptions
+  fullName: CG.Alerts.Options.AuditAlertOptions
   nameWithType: AuditAlertOptions
-- uid: CG.Applications.Options.CriticalAlertOptions
+- uid: CG.Alerts.Options.CriticalAlertOptions
   name: CriticalAlertOptions
-  href: api/CG.Applications.Options.CriticalAlertOptions.html
-  commentId: T:CG.Applications.Options.CriticalAlertOptions
-  fullName: CG.Applications.Options.CriticalAlertOptions
+  href: api/CG.Alerts.Options.CriticalAlertOptions.html
+  commentId: T:CG.Alerts.Options.CriticalAlertOptions
+  fullName: CG.Alerts.Options.CriticalAlertOptions
   nameWithType: CriticalAlertOptions
-- uid: CG.Applications.Options.CriticalAlertOptions.Email
+- uid: CG.Alerts.Options.CriticalAlertOptions.Email
   name: Email
-  href: api/CG.Applications.Options.CriticalAlertOptions.html#CG_Applications_Options_CriticalAlertOptions_Email
-  commentId: P:CG.Applications.Options.CriticalAlertOptions.Email
-  fullName: CG.Applications.Options.CriticalAlertOptions.Email
+  href: api/CG.Alerts.Options.CriticalAlertOptions.html#CG_Alerts_Options_CriticalAlertOptions_Email
+  commentId: P:CG.Alerts.Options.CriticalAlertOptions.Email
+  fullName: CG.Alerts.Options.CriticalAlertOptions.Email
   nameWithType: CriticalAlertOptions.Email
-- uid: CG.Applications.Options.CriticalAlertOptions.Email*
+- uid: CG.Alerts.Options.CriticalAlertOptions.Email*
   name: Email
-  href: api/CG.Applications.Options.CriticalAlertOptions.html#CG_Applications_Options_CriticalAlertOptions_Email_
-  commentId: Overload:CG.Applications.Options.CriticalAlertOptions.Email
+  href: api/CG.Alerts.Options.CriticalAlertOptions.html#CG_Alerts_Options_CriticalAlertOptions_Email_
+  commentId: Overload:CG.Alerts.Options.CriticalAlertOptions.Email
   isSpec: "True"
-  fullName: CG.Applications.Options.CriticalAlertOptions.Email
+  fullName: CG.Alerts.Options.CriticalAlertOptions.Email
   nameWithType: CriticalAlertOptions.Email
-- uid: CG.Applications.Options.DebugAlertOptions
+- uid: CG.Alerts.Options.DebugAlertOptions
   name: DebugAlertOptions
-  href: api/CG.Applications.Options.DebugAlertOptions.html
-  commentId: T:CG.Applications.Options.DebugAlertOptions
-  fullName: CG.Applications.Options.DebugAlertOptions
+  href: api/CG.Alerts.Options.DebugAlertOptions.html
+  commentId: T:CG.Alerts.Options.DebugAlertOptions
+  fullName: CG.Alerts.Options.DebugAlertOptions
   nameWithType: DebugAlertOptions
-- uid: CG.Applications.Options.ErrorAlertOptions
+- uid: CG.Alerts.Options.ErrorAlertOptions
   name: ErrorAlertOptions
-  href: api/CG.Applications.Options.ErrorAlertOptions.html
-  commentId: T:CG.Applications.Options.ErrorAlertOptions
-  fullName: CG.Applications.Options.ErrorAlertOptions
+  href: api/CG.Alerts.Options.ErrorAlertOptions.html
+  commentId: T:CG.Alerts.Options.ErrorAlertOptions
+  fullName: CG.Alerts.Options.ErrorAlertOptions
   nameWithType: ErrorAlertOptions
-- uid: CG.Applications.Options.ErrorAlertOptions.Email
+- uid: CG.Alerts.Options.ErrorAlertOptions.Email
   name: Email
-  href: api/CG.Applications.Options.ErrorAlertOptions.html#CG_Applications_Options_ErrorAlertOptions_Email
-  commentId: P:CG.Applications.Options.ErrorAlertOptions.Email
-  fullName: CG.Applications.Options.ErrorAlertOptions.Email
+  href: api/CG.Alerts.Options.ErrorAlertOptions.html#CG_Alerts_Options_ErrorAlertOptions_Email
+  commentId: P:CG.Alerts.Options.ErrorAlertOptions.Email
+  fullName: CG.Alerts.Options.ErrorAlertOptions.Email
   nameWithType: ErrorAlertOptions.Email
-- uid: CG.Applications.Options.ErrorAlertOptions.Email*
+- uid: CG.Alerts.Options.ErrorAlertOptions.Email*
   name: Email
-  href: api/CG.Applications.Options.ErrorAlertOptions.html#CG_Applications_Options_ErrorAlertOptions_Email_
-  commentId: Overload:CG.Applications.Options.ErrorAlertOptions.Email
+  href: api/CG.Alerts.Options.ErrorAlertOptions.html#CG_Alerts_Options_ErrorAlertOptions_Email_
+  commentId: Overload:CG.Alerts.Options.ErrorAlertOptions.Email
   isSpec: "True"
-  fullName: CG.Applications.Options.ErrorAlertOptions.Email
+  fullName: CG.Alerts.Options.ErrorAlertOptions.Email
   nameWithType: ErrorAlertOptions.Email
-- uid: CG.Applications.Options.InformationAlertOptions
+- uid: CG.Alerts.Options.InformationAlertOptions
   name: InformationAlertOptions
-  href: api/CG.Applications.Options.InformationAlertOptions.html
-  commentId: T:CG.Applications.Options.InformationAlertOptions
-  fullName: CG.Applications.Options.InformationAlertOptions
+  href: api/CG.Alerts.Options.InformationAlertOptions.html
+  commentId: T:CG.Alerts.Options.InformationAlertOptions
+  fullName: CG.Alerts.Options.InformationAlertOptions
   nameWithType: InformationAlertOptions
-- uid: CG.Applications.Options.TraceAlertOptions
+- uid: CG.Alerts.Options.TraceAlertOptions
   name: TraceAlertOptions
-  href: api/CG.Applications.Options.TraceAlertOptions.html
-  commentId: T:CG.Applications.Options.TraceAlertOptions
-  fullName: CG.Applications.Options.TraceAlertOptions
+  href: api/CG.Alerts.Options.TraceAlertOptions.html
+  commentId: T:CG.Alerts.Options.TraceAlertOptions
+  fullName: CG.Alerts.Options.TraceAlertOptions
   nameWithType: TraceAlertOptions
-- uid: CG.Applications.Options.WarningAlertOptions
+- uid: CG.Alerts.Options.WarningAlertOptions
   name: WarningAlertOptions
-  href: api/CG.Applications.Options.WarningAlertOptions.html
-  commentId: T:CG.Applications.Options.WarningAlertOptions
-  fullName: CG.Applications.Options.WarningAlertOptions
+  href: api/CG.Alerts.Options.WarningAlertOptions.html
+  commentId: T:CG.Alerts.Options.WarningAlertOptions
+  fullName: CG.Alerts.Options.WarningAlertOptions
   nameWithType: WarningAlertOptions
-- uid: CG.Applications.StandardAlertHandler
+- uid: CG.Alerts.StandardAlertHandler
   name: StandardAlertHandler
-  href: api/CG.Applications.StandardAlertHandler.html
-  commentId: T:CG.Applications.StandardAlertHandler
-  fullName: CG.Applications.StandardAlertHandler
+  href: api/CG.Alerts.StandardAlertHandler.html
+  commentId: T:CG.Alerts.StandardAlertHandler
+  fullName: CG.Alerts.StandardAlertHandler
   nameWithType: StandardAlertHandler
-- uid: CG.Applications.StandardAlertHandler.#ctor(Microsoft.Extensions.Hosting.IHost)
+- uid: CG.Alerts.StandardAlertHandler.#ctor(Microsoft.Extensions.Hosting.IHost)
   name: StandardAlertHandler(IHost)
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler__ctor_Microsoft_Extensions_Hosting_IHost_
-  commentId: M:CG.Applications.StandardAlertHandler.#ctor(Microsoft.Extensions.Hosting.IHost)
-  fullName: CG.Applications.StandardAlertHandler.StandardAlertHandler(Microsoft.Extensions.Hosting.IHost)
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler__ctor_Microsoft_Extensions_Hosting_IHost_
+  commentId: M:CG.Alerts.StandardAlertHandler.#ctor(Microsoft.Extensions.Hosting.IHost)
+  fullName: CG.Alerts.StandardAlertHandler.StandardAlertHandler(Microsoft.Extensions.Hosting.IHost)
   nameWithType: StandardAlertHandler.StandardAlertHandler(IHost)
-- uid: CG.Applications.StandardAlertHandler.#ctor*
+- uid: CG.Alerts.StandardAlertHandler.#ctor*
   name: StandardAlertHandler
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler__ctor_
-  commentId: Overload:CG.Applications.StandardAlertHandler.#ctor
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler__ctor_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.#ctor
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.StandardAlertHandler
+  fullName: CG.Alerts.StandardAlertHandler.StandardAlertHandler
   nameWithType: StandardAlertHandler.StandardAlertHandler
-- uid: CG.Applications.StandardAlertHandler.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.StandardAlertHandler.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleAudit(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleAudit_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.StandardAlertHandler.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleAudit_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.StandardAlertHandler.HandleAudit(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleAudit(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.StandardAlertHandler.HandleAudit(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.StandardAlertHandler.HandleAudit(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.StandardAlertHandler.HandleAudit(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.StandardAlertHandler.HandleAudit(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: StandardAlertHandler.HandleAudit(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: StandardAlertHandler.HandleAudit(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.StandardAlertHandler.HandleAudit*
+- uid: CG.Alerts.StandardAlertHandler.HandleAudit*
   name: HandleAudit
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleAudit_
-  commentId: Overload:CG.Applications.StandardAlertHandler.HandleAudit
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleAudit_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.HandleAudit
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.HandleAudit
+  fullName: CG.Alerts.StandardAlertHandler.HandleAudit
   nameWithType: StandardAlertHandler.HandleAudit
-- uid: CG.Applications.StandardAlertHandler.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.StandardAlertHandler.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleCritical(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleCritical_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.StandardAlertHandler.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleCritical_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.StandardAlertHandler.HandleCritical(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleCritical(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.StandardAlertHandler.HandleCritical(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.StandardAlertHandler.HandleCritical(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.StandardAlertHandler.HandleCritical(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.StandardAlertHandler.HandleCritical(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: StandardAlertHandler.HandleCritical(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: StandardAlertHandler.HandleCritical(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.StandardAlertHandler.HandleCritical*
+- uid: CG.Alerts.StandardAlertHandler.HandleCritical*
   name: HandleCritical
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleCritical_
-  commentId: Overload:CG.Applications.StandardAlertHandler.HandleCritical
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleCritical_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.HandleCritical
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.HandleCritical
+  fullName: CG.Alerts.StandardAlertHandler.HandleCritical
   nameWithType: StandardAlertHandler.HandleCritical
-- uid: CG.Applications.StandardAlertHandler.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.StandardAlertHandler.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleDebug(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleDebug_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.StandardAlertHandler.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleDebug_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.StandardAlertHandler.HandleDebug(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleDebug(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.StandardAlertHandler.HandleDebug(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.StandardAlertHandler.HandleDebug(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.StandardAlertHandler.HandleDebug(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.StandardAlertHandler.HandleDebug(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: StandardAlertHandler.HandleDebug(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: StandardAlertHandler.HandleDebug(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.StandardAlertHandler.HandleDebug*
+- uid: CG.Alerts.StandardAlertHandler.HandleDebug*
   name: HandleDebug
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleDebug_
-  commentId: Overload:CG.Applications.StandardAlertHandler.HandleDebug
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleDebug_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.HandleDebug
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.HandleDebug
+  fullName: CG.Alerts.StandardAlertHandler.HandleDebug
   nameWithType: StandardAlertHandler.HandleDebug
-- uid: CG.Applications.StandardAlertHandler.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.StandardAlertHandler.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleError(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleError_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.StandardAlertHandler.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleError_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.StandardAlertHandler.HandleError(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleError(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.StandardAlertHandler.HandleError(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.StandardAlertHandler.HandleError(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.StandardAlertHandler.HandleError(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.StandardAlertHandler.HandleError(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: StandardAlertHandler.HandleError(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: StandardAlertHandler.HandleError(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.StandardAlertHandler.HandleError*
+- uid: CG.Alerts.StandardAlertHandler.HandleError*
   name: HandleError
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleError_
-  commentId: Overload:CG.Applications.StandardAlertHandler.HandleError
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleError_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.HandleError
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.HandleError
+  fullName: CG.Alerts.StandardAlertHandler.HandleError
   nameWithType: StandardAlertHandler.HandleError
-- uid: CG.Applications.StandardAlertHandler.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.StandardAlertHandler.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleInformation(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleInformation_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.StandardAlertHandler.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleInformation_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.StandardAlertHandler.HandleInformation(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleInformation(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.StandardAlertHandler.HandleInformation(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.StandardAlertHandler.HandleInformation(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.StandardAlertHandler.HandleInformation(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.StandardAlertHandler.HandleInformation(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: StandardAlertHandler.HandleInformation(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: StandardAlertHandler.HandleInformation(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.StandardAlertHandler.HandleInformation*
+- uid: CG.Alerts.StandardAlertHandler.HandleInformation*
   name: HandleInformation
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleInformation_
-  commentId: Overload:CG.Applications.StandardAlertHandler.HandleInformation
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleInformation_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.HandleInformation
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.HandleInformation
+  fullName: CG.Alerts.StandardAlertHandler.HandleInformation
   nameWithType: StandardAlertHandler.HandleInformation
-- uid: CG.Applications.StandardAlertHandler.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.StandardAlertHandler.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleTrace(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleTrace_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.StandardAlertHandler.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleTrace_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.StandardAlertHandler.HandleTrace(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleTrace(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.StandardAlertHandler.HandleTrace(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.StandardAlertHandler.HandleTrace(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.StandardAlertHandler.HandleTrace(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.StandardAlertHandler.HandleTrace(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: StandardAlertHandler.HandleTrace(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: StandardAlertHandler.HandleTrace(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.StandardAlertHandler.HandleTrace*
+- uid: CG.Alerts.StandardAlertHandler.HandleTrace*
   name: HandleTrace
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleTrace_
-  commentId: Overload:CG.Applications.StandardAlertHandler.HandleTrace
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleTrace_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.HandleTrace
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.HandleTrace
+  fullName: CG.Alerts.StandardAlertHandler.HandleTrace
   nameWithType: StandardAlertHandler.HandleTrace
-- uid: CG.Applications.StandardAlertHandler.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+- uid: CG.Alerts.StandardAlertHandler.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name: HandleWarning(IDictionary<String, Object>, String, String, Int32)
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleWarning_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
-  commentId: M:CG.Applications.StandardAlertHandler.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleWarning_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_
+  commentId: M:CG.Alerts.StandardAlertHandler.HandleWarning(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)
   name.vb: HandleWarning(IDictionary(Of String, Object), String, String, Int32)
-  fullName: CG.Applications.StandardAlertHandler.HandleWarning(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
-  fullName.vb: CG.Applications.StandardAlertHandler.HandleWarning(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
+  fullName: CG.Alerts.StandardAlertHandler.HandleWarning(System.Collections.Generic.IDictionary<System.String, System.Object>, System.String, System.String, System.Int32)
+  fullName.vb: CG.Alerts.StandardAlertHandler.HandleWarning(System.Collections.Generic.IDictionary(Of System.String, System.Object), System.String, System.String, System.Int32)
   nameWithType: StandardAlertHandler.HandleWarning(IDictionary<String, Object>, String, String, Int32)
   nameWithType.vb: StandardAlertHandler.HandleWarning(IDictionary(Of String, Object), String, String, Int32)
-- uid: CG.Applications.StandardAlertHandler.HandleWarning*
+- uid: CG.Alerts.StandardAlertHandler.HandleWarning*
   name: HandleWarning
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_HandleWarning_
-  commentId: Overload:CG.Applications.StandardAlertHandler.HandleWarning
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_HandleWarning_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.HandleWarning
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.HandleWarning
+  fullName: CG.Alerts.StandardAlertHandler.HandleWarning
   nameWithType: StandardAlertHandler.HandleWarning
-- uid: CG.Applications.StandardAlertHandler.Host
+- uid: CG.Alerts.StandardAlertHandler.Host
   name: Host
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_Host
-  commentId: P:CG.Applications.StandardAlertHandler.Host
-  fullName: CG.Applications.StandardAlertHandler.Host
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_Host
+  commentId: P:CG.Alerts.StandardAlertHandler.Host
+  fullName: CG.Alerts.StandardAlertHandler.Host
   nameWithType: StandardAlertHandler.Host
-- uid: CG.Applications.StandardAlertHandler.Host*
+- uid: CG.Alerts.StandardAlertHandler.Host*
   name: Host
-  href: api/CG.Applications.StandardAlertHandler.html#CG_Applications_StandardAlertHandler_Host_
-  commentId: Overload:CG.Applications.StandardAlertHandler.Host
+  href: api/CG.Alerts.StandardAlertHandler.html#CG_Alerts_StandardAlertHandler_Host_
+  commentId: Overload:CG.Alerts.StandardAlertHandler.Host
   isSpec: "True"
-  fullName: CG.Applications.StandardAlertHandler.Host
+  fullName: CG.Alerts.StandardAlertHandler.Host
   nameWithType: StandardAlertHandler.Host

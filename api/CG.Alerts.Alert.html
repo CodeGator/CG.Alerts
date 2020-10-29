@@ -78,29 +78,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Applications.Alert">
+            <article class="content wrap" id="_content" data-uid="CG.Alerts.Alert">
   
   
-  <h1 id="CG_Applications_Alert" data-uid="CG.Applications.Alert" class="text-break">Class Alert
+  <h1 id="CG_Alerts_Alert" data-uid="CG.Alerts.Alert" class="text-break">Class Alert
   </h1>
-  <div class="markdown level0 summary"><p>This class represents a singleton implementation of the <a class="xref" href="CG.Applications.IAlert.html">IAlert</a>
+  <div class="markdown level0 summary"><p>This class represents a singleton implementation of the <a class="xref" href="CG.Alerts.IAlert.html">IAlert</a>
 interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CG.SingletonBase</span>&lt;<a class="xref" href="CG.Applications.Alert.html">Alert</a>&gt;</div>
+    <div class="level1"><span class="xref">CG.SingletonBase</span>&lt;<a class="xref" href="CG.Alerts.Alert.html">Alert</a>&gt;</div>
     <div class="level2"><span class="xref">Alert</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="CG.Applications.IAlert.html">IAlert</a></div>
+    <div><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">CG.SingletonBase&lt;CG.Applications.Alert&gt;.Instance()</span>
+      <span class="xref">CG.SingletonBase&lt;CG.Alerts.Alert&gt;.Instance()</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -124,13 +124,13 @@ interface.</p>
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Applications.html">CG.Applications</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Alerts.html">CG.Alerts</a></h6>
   <h6><strong>Assembly</strong>: CG.Alerts.dll</h6>
-  <h5 id="CG_Applications_Alert_syntax">Syntax</h5>
+  <h5 id="CG_Alerts_Alert_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class Alert : SingletonBase&lt;Alert&gt;, IAlert</code></pre>
   </div>
-  <h5 id="CG_Applications_Alert_remarks"><strong>Remarks</strong></h5>
+  <h5 id="CG_Alerts_Alert_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>
 The idea with this class, is to create a simple service for handling alerts
 that won&apos;t require a full-blown dependency injection container to function -
@@ -139,8 +139,8 @@ but that can be extended to work seamlessly with a DI container if needed.
 </div>
   <h3 id="properties">Properties
   </h3>
-  <a id="CG_Applications_Alert_Handler_" data-uid="CG.Applications.Alert.Handler*"></a>
-  <h4 id="CG_Applications_Alert_Handler" data-uid="CG.Applications.Alert.Handler">Handler</h4>
+  <a id="CG_Alerts_Alert_Handler_" data-uid="CG.Alerts.Alert.Handler*"></a>
+  <h4 id="CG_Alerts_Alert_Handler" data-uid="CG.Alerts.Alert.Handler">Handler</h4>
   <div class="markdown level1 summary"><p>This property contains the default alert handler.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -158,54 +158,54 @@ but that can be extended to work seamlessly with a DI container if needed.
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="CG.Applications.IAlertHandler.html">IAlertHandler</a></td>
+        <td><a class="xref" href="CG.Alerts.IAlertHandler.html">IAlertHandler</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="CG.Applications.IAlert.html">IAlert</a>
+      <a class="xref" href="CG.Alerts.IAlert.html">IAlert</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_SetHandler__1_CG_Applications_Alert___0_">AlertExtensions.SetHandler&lt;T&gt;(Alert, T)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_SetHandler__1_CG_Alerts_Alert___0_">AlertExtensions.SetHandler&lt;T&gt;(Alert, T)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_TryRaise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_">AlertExtensions.TryRaise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_TryRaise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_">AlertExtensions.TryRaise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_Raise_CG_Applications_IAlert_CG_Applications_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_">AlertExtensions.Raise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_Raise_CG_Alerts_IAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_">AlertExtensions.Raise(IAlert, AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseInformation_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseInformation(IAlert, String, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseInformation_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseInformation(IAlert, String, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseWarning(IAlert, String, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseWarning(IAlert, String, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseWarning_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">AlertExtensions.RaiseWarning(IAlert, String, Exception, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseWarning_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">AlertExtensions.RaiseWarning(IAlert, String, Exception, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseError(IAlert, String, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseError(IAlert, String, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseError_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">AlertExtensions.RaiseError(IAlert, String, Exception, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseError_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">AlertExtensions.RaiseError(IAlert, String, Exception, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseCritical(IAlert, String, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseCritical(IAlert, String, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseCritical_CG_Applications_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">AlertExtensions.RaiseCritical(IAlert, String, Exception, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseCritical_CG_Alerts_IAlert_System_String_System_Exception_System_String_System_String_System_Int32_">AlertExtensions.RaiseCritical(IAlert, String, Exception, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseAudit_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseAudit(IAlert, String, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseAudit_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseAudit(IAlert, String, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseDebug_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseDebug(IAlert, String, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseDebug_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseDebug(IAlert, String, String, String, Int32)</a>
   </div>
   <div>
-      <a class="xref" href="CG.Applications.AlertExtensions.html#CG_Applications_AlertExtensions_RaiseTrace_CG_Applications_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseTrace(IAlert, String, String, String, Int32)</a>
+      <a class="xref" href="CG.Alerts.AlertExtensions.html#CG_Alerts_AlertExtensions_RaiseTrace_CG_Alerts_IAlert_System_String_System_String_System_String_System_Int32_">AlertExtensions.RaiseTrace(IAlert, String, String, String, Int32)</a>
   </div>
 </article>
           </div>
