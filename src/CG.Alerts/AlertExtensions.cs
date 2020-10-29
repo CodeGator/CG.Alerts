@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace CG.Applications
+namespace CG.Alerts
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IAlert"/>

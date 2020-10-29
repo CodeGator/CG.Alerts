@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CG.Applications
+namespace CG.Alerts
 {
     /// <summary>
     /// This class represents a singleton implementation of the <see cref="IAlert"/>

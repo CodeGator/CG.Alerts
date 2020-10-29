@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace CG.Applications
+namespace CG.Alerts
 {
     /// <summary>
     /// This class is an abstract implementation of the <see cref="IAlertHandler"/>

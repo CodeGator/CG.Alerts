@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
-namespace CG.Applications
+namespace CG.Alerts
 {
     /// <summary>
     /// This class is a default implementation of the <see cref="IAlertHandler"/>

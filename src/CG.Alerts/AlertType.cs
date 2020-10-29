@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CG.Applications
+namespace CG.Alerts
 {
     /// <summary>
     /// This enumeration lists the types of alerts that can be raised.

@@ -1,11 +1,11 @@
-﻿using CG.Applications.Options;
+﻿using CG.Alerts.Options;
 using CG.Validations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 
-namespace CG.Applications
+namespace CG.Alerts
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IHostBuilder"/>

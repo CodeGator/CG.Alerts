@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CG.Applications.QuickStart", "CG.Applications.QuickStart.csproj", "{1ED2DF98-BDED-4C3F-B184-1CE97DC31457}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CG.Alerts.QuickStart", "CG.Alerts.QuickStart.csproj", "{1ED2DF98-BDED-4C3F-B184-1CE97DC31457}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CG.Applications", "..\..\src\CG.Applications\CG.Applications.csproj", "{620768A0-1B79-4543-8396-221FBB6133EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CG.Alerts", "..\..\src\CG.Alerts\CG.Alerts.csproj", "{620768A0-1B79-4543-8396-221FBB6133EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

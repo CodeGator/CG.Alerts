@@ -1,13 +1,8 @@
-﻿using CG.Applications;
-using CG.Applications.Options;
-using CG.Options;
-using CG.Validations;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+﻿using CG.Validations;
 using Microsoft.Extensions.Hosting;
 using System;
 
-namespace CG.Applications
+namespace CG.Alerts
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IHost"/>

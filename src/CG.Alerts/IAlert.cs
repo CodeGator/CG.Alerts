@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CG.Applications
+namespace CG.Alerts
 {
     /// <summary>
     /// This interface represents an alert for a .NET application.

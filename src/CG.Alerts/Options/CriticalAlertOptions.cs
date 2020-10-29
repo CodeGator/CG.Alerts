@@ -2,7 +2,7 @@
 using CG.Options;
 using System;
 
-namespace CG.Applications.Options
+namespace CG.Alerts.Options
 {
     /// <summary>
     /// This class represents configuration options for critical
