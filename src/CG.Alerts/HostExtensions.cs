@@ -17,12 +17,12 @@ namespace CG.Alerts
         #region Public methods
 
         /// <summary>
-        /// This method sets a standard handler for alerts processing. 
+        /// This method sets a hosted handler for alerts processing. 
         /// </summary>
         /// <param name="host">The host to use for the operation.</param>
         /// <exception cref="ArgumentException">This exception is thrown whenever
         /// one or more of the arguments are missing, or NULL.</exception>
-        public static IHost SetStandardAlertHandler(
+        public static IHost SetHostedAlertHandler(
             this IHost host
             ) 
         {
@@ -31,7 +31,7 @@ namespace CG.Alerts
 
             // Set the default handler.
             Alert.Instance().SetHandler(
-                new StandardAlertHandler(host)
+                new HostedAlertHandler(host)
                 );
 
             // Return the host.

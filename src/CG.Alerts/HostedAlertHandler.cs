@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 namespace CG.Alerts
 {
     /// <summary>
-    /// This class is a standard implementation of the <see cref="IAlertHandler"/>
+    /// This class is a hosted implementation of the <see cref="IAlertHandler"/>
     /// interface.
     /// </summary>
     /// <remarks>
@@ -19,7 +19,7 @@ namespace CG.Alerts
     /// more useful things when processing alerts. 
     /// </para>
     /// </remarks>
-    public class StandardAlertHandler : DefaultAlertHandler, IAlertHandler
+    public class HostedAlertHandler : DefaultAlertHandler, IAlertHandler
     {
         // *******************************************************************
         // Properties.
@@ -41,11 +41,11 @@ namespace CG.Alerts
         #region Constructors
 
         /// <summary>
-        /// This constructor creates a new instance of the <see cref="StandardAlertHandler"/>
+        /// This constructor creates a new instance of the <see cref="HostedAlertHandler"/>
         /// class.
         /// </summary>
         /// <param name="host">The host to use with this handler.</param>
-        public StandardAlertHandler(
+        public HostedAlertHandler(
             IHost host
             )
         {

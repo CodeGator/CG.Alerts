@@ -5,8 +5,7 @@ using System;
 namespace CG.Alerts.Options
 {
     /// <summary>
-    /// This class represents configuration options for critical
-    /// error alert processing.
+    /// This class represents configuration options for critical alert processing.
     /// </summary>
     public class CriticalAlertOptions : OptionsBase
     {
