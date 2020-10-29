@@ -1,9 +1,9 @@
 # CG.Alerts: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Alerts/_apis/build/status/CodeGator.CG.Alerts?branchName=master)](https://dev.azure.com/codegator/CG.Alerts/_build/latest?definitionId=23&branchName=master)
+[![Build Status](https://dev.azure.com/codegator/CG.Alerts/_apis/build/status/CodeGator.CG.Alerts?branchName=main)](https://dev.azure.com/codegator/CG.Alerts/_build/latest?definitionId=25&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Alerts/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Alerts.svg?style=flat)](https://nuget.org/packages/CG.Alerts)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Alerts/23)
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Alerts/25)
 
 #### What does it do?
 The package defines alert extensions used by other CodeGator packages. 
