@@ -13,8 +13,8 @@ namespace CG.Alerts
     /// <remarks>
     /// <para>
     /// The idea with this class, is to create a set of handlers that don't require 
-    /// external resources to function, but still do something useful. 
-    /// method.
+    /// external resources to function, but still do something useful. In this case,
+    /// we write alerts to the console.
     /// </para>
     /// </remarks>
     public class DefaultAlertHandler : AlertHandlerBase, IAlertHandler
