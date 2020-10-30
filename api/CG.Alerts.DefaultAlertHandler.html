@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DefaultAlertHandler
    ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.56.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -61,11 +61,11 @@
       <div class="container body-content">
         
         <div id="search-results">
-          <div class="search-list"></div>
+          <div class="search-list">Search Results for <span></span></div>
           <div class="sr-items">
             <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
-          <ul id="pagination"></ul>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
@@ -92,7 +92,6 @@ interface.</p>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="CG.Alerts.AlertHandlerBase.html">AlertHandlerBase</a></div>
     <div class="level2"><span class="xref">DefaultAlertHandler</span></div>
-      <div class="level3"><a class="xref" href="CG.Alerts.HostedAlertHandler.html">HostedAlertHandler</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -134,8 +133,8 @@ interface.</p>
   <h5 id="CG_Alerts_DefaultAlertHandler_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>
 The idea with this class, is to create a set of handlers that don&apos;t require 
-external resources to function, but still do something useful. 
-method.
+external resources to function, but still do something useful. In this case,
+we write alerts to the console.
 </p>
 </div>
   <h3 id="methods">Methods
@@ -486,7 +485,8 @@ the method in a derived class to process the alert.</p>
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

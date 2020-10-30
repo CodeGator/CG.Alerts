@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.Alert.html",
-          "hash": "Yy5IUjZkrRMMAFCkyrDAqw=="
+          "hash": "+oDGeXzc/p0hHNPoKV72RA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.AlertExtensions.html",
-          "hash": "J+snjxrO/CAdukTDD00w9g=="
+          "hash": "4nQHcI3v050z+EVFKm4EMw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.AlertHandlerBase.html",
-          "hash": "lpDCUirCCTrKl+X4L6JmUA=="
+          "hash": "eYYBlG9tBCEPZ0ScBwLKJA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.AlertType.html",
-          "hash": "XdoTlAdWUXFpuM7RLHcIUA=="
+          "hash": "iaBb31twznSyLytRZZ4y+w=="
         }
       },
       "is_incremental": false,
@@ -66,31 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.DefaultAlertHandler.html",
-          "hash": "7gWYESfoXRJicUcQRRUCSw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.HostExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.HostExtensions.html",
-          "hash": "Yxw5zh2IQBIlZtkO2fIzjA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.HostedAlertHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.HostedAlertHandler.html",
-          "hash": "lFiGVZZEvKTce63AdP2haw=="
+          "hash": "Eu/RaVjYUPUdbgNGwQqLeQ=="
         }
       },
       "is_incremental": false,
@@ -102,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.IAlert.html",
-          "hash": "voPJmCSqscUpESpmk1qYgA=="
+          "hash": "GQ/DKG3YlGZn6oXVEFKLWg=="
         }
       },
       "is_incremental": false,
@@ -114,115 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.IAlertHandler.html",
-          "hash": "mkPZ/Z1esJxyxeJFDDhc+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.AlertOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.AlertOptions.html",
-          "hash": "ln5aF3DUSf3F+whkV8GaoA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.AuditAlertOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.AuditAlertOptions.html",
-          "hash": "S6dxpRAzqWur0EIegIh/VQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.CriticalAlertOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.CriticalAlertOptions.html",
-          "hash": "sK6L154dW9usvwRS94O4MA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.DebugAlertOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.DebugAlertOptions.html",
-          "hash": "gDECkEkGQn9FcqEA3E6vKw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.ErrorAlertOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.ErrorAlertOptions.html",
-          "hash": "1Wk4NogMmyAH/AXW4pf/1Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.InformationAlertOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.InformationAlertOptions.html",
-          "hash": "ahTSVf+ZkXZm3sDJkoqa8A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.TraceAlertOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.TraceAlertOptions.html",
-          "hash": "D6JAWmmZ4HoWcd72mO3nQg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.WarningAlertOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.WarningAlertOptions.html",
-          "hash": "tZBSYgjFa2zMEw8vYJD9gQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Options.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Alerts.Options.html",
-          "hash": "+8YwvJ1wtvQ533hKhKeGTw=="
+          "hash": "uqVjP55FuT3nOTEuRigToA=="
         }
       },
       "is_incremental": false,
@@ -234,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.html",
-          "hash": "pvQYFaDWhwF4zAWwGaK6DA=="
+          "hash": "JB14jvBiSJoAZ6bzi1sefQ=="
         }
       },
       "is_incremental": false,
@@ -246,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "J1Q5Rt047hv5cOA3+3bOCw=="
+          "hash": "EMWQEDzB4/+06/kEH9piCQ=="
         }
       },
       "is_incremental": false,
@@ -258,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "ag1CG3zxwwdUWGM6R7o5zw=="
+          "hash": "nopI9drAQU6EKL0WJa5HiQ=="
         }
       },
       "is_incremental": false,
@@ -326,7 +194,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Pv5XoiVT3mcJugNqOGpVsA=="
+          "hash": "m1Wnvpith6DZEryRwdvomg=="
         }
       },
       "is_incremental": false,
@@ -365,7 +233,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 19,
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
