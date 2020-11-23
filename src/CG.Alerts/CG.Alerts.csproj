@@ -14,6 +14,7 @@ Platforms supported:
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/CodeGator/CG.Alerts</RepositoryUrl>
     <PackageTags>alerts, CG.Alerts, CodeGator</PackageTags>
+    <PackageIcon>packageDefaultIcon-50x50.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -21,11 +22,18 @@ Platforms supported:
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Core" Version="2020.6.35" />
+    <PackageReference Include="CG.Core" Version="2020.6.41" />
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\packageDefaultIcon-50x50.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
