@@ -5,6 +5,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Alerts.svg?style=flat)](https://nuget.org/packages/CG.Alerts)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Alerts/25)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Alerts/discussions)
+[![CG.Alerts on fuget.org](https://www.fuget.org/packages/CG.Alerts/badge.svg)](https://www.fuget.org/packages/CG.Alerts)
 
 #### What does it do?
 The package defines alert extensions used by other CodeGator packages. 
@@ -25,6 +26,8 @@ PM> Install-Package CG.Alerts
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Alerts/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Alerts/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Alerts/)
