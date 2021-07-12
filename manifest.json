@@ -13,12 +13,120 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.Alert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.Alert.html",
+          "hash": "0qkilBVQkqBX8Af/uK06XkM4/LSVGKNxHJFaqq0a9GA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.AlertExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.AlertExtensions.html",
+          "hash": "9wqFC5BSCVtLg+Lda+5n3RDCxRZ9xhc0toZ9dbUpD80="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.AlertHandlerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.AlertHandlerBase.html",
+          "hash": "sqVZ15WLySJkmWSUb6n8ykjV+sfQD5G0kg5+01uy+uQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.AlertType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.AlertType.html",
+          "hash": "zJ/cCHM8Ed1EWozOsgQiTNiWweWW5roQIzcKjQP+jcc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.DefaultAlertHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.DefaultAlertHandler.html",
+          "hash": "g5r6lKk0e4cUYqSPapJZbhci7KXeo5f+8QyGQzeiW1E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.IAlert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.IAlert.html",
+          "hash": "tAemXaZXHhALg9tJI/8B+erKkHvI0lf9fXl5X1TBPy4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.IAlertHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.IAlertHandler.html",
+          "hash": "28oRdd2a9BW8oOAjjYUAxyrpnf+MJPkdZdPECrPlHGw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.html",
+          "hash": "FW4oSzE8c99Cvf+wPAcQPt8VxnYHjvbhL5i1JbLL+DM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ZHIKOWYJxsMlnADcTQXa3lfGZH1TGTaGE61Nuss/XpE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
+          "hash": "3lFGsZn+vpYCWz7OututIOBGsz91XMn2mjINvNxc584="
         }
       },
       "is_incremental": false,
@@ -86,7 +194,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "us/jiHIPP74FIsJUs03UuHzLncqKtALdYxhzLjgkkXU="
+          "hash": "gpcCc1J6Wh6Atrf4DBx3C5ASj2U3S21UL0LIezgy//I="
         }
       },
       "is_incremental": false,
@@ -98,7 +206,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "sRPyALgE85Sini70gLds1Q7nX5E+o239Jm6EbqR+wCc="
+          "hash": "IJhD8/Fi3iWr7GbWD0p41fq33DLZVungXkOb07OI1Og="
         }
       },
       "is_incremental": false,
@@ -120,6 +228,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
