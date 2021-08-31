@@ -1,5 +1,6 @@
 ﻿using CG.Alerts;
 using CG.Validations;
+using Microsoft.Extensions.Options;
 using System;
 
 namespace Microsoft.Extensions.DependencyInjection
@@ -71,7 +72,9 @@ namespace Microsoft.Extensions.DependencyInjection
             }
 
             // Configure the options.
-            serviceCollection.ConfigureOptions(options);
+            serviceCollection.AddSingleton<IOptions<AlertOptions>>(
+                new OptionsWrapper<AlertOptions>(options)
+                );
             
             // Return the service collection.
             return serviceCollection;

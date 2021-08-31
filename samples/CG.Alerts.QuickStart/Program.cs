@@ -1,23 +1,26 @@
-﻿using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CG.Alerts.QuickStart
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Host.CreateDefaultBuilder()
-                //.ConfigureApplicationOptions<ApplicationOptions>()
-                .Build()
-                //.SetStandardAlertHandler()
-                .RunDelegate(host =>
-                {
-                    Alert.Instance().RaiseInformation("hosted information alert.");
-
-                    Console.WriteLine("press any key to exit");
-                    Console.ReadKey();
-                });                    
+            CreateHostBuilder(args).Build().Run();
         }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }
