@@ -1,5 +1,4 @@
-﻿using CG.Alerts.Options;
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Extensions.Hosting;
 using System;
 
 namespace CG.Alerts.QuickStart
@@ -9,9 +8,9 @@ namespace CG.Alerts.QuickStart
         static void Main(string[] args)
         {
             Host.CreateDefaultBuilder()
-                .ConfigureApplicationOptions<ApplicationOptions>()
+                //.ConfigureApplicationOptions<ApplicationOptions>()
                 .Build()
-                .SetStandardAlertHandler()
+                //.SetStandardAlertHandler()
                 .RunDelegate(host =>
                 {
                     Alert.Instance().RaiseInformation("hosted information alert.");

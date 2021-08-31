@@ -1,6 +1,10 @@
 # CG.Alerts change log
 ---
 
+## 2021.4
+
+* I redesigned everything to work around my event aggregator.
+
 ## 2021.3
 
 * bug fixes
