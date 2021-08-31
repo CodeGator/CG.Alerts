@@ -5,6 +5,10 @@
 
 * I redesigned everything to work around my event aggregator.
 
+* I rewrote the quickstart sample as a Blazor application.
+
+* I added the ability to raise overridden alert types with the well-known base type.
+
 ## 2021.3
 
 * bug fixes
