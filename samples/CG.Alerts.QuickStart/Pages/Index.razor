@@ -4,35 +4,36 @@
 <h1>Alerts Demo</h1>
 <p style="color: darkblue" class="small pb-5">Run the application using the CG.Alerts.QuickStart profile, so you can see the console output ...</p>
 
-<div style="max-width: 450px;">
+<div style="max-width: 650px;">
 	<div class="form-group">
-		<label>This button demonstrates how to raise an audit alert.</label>
+		<label>This button demonstrates how to raise an audit alert.</label><br />
 		<button @onclick="@(() => Alerts.Raise<AuditAlert>())">Raise Audit Alert</button>
 		<label class="small">Look at the console for this alert's output.</label>
 	</div>
 	<div class="form-group">
-		<label>This button demonstrates how to raise an information alert.</label>
+		<label>This button demonstrates how to raise an information alert.</label><br />
 		<button @onclick="@(() => Alerts.Raise<InformationAlert>())">Raise Information Alert</button>
 		<label class="small">Look at the console for this alert's output.</label>
 	</div>
 	<div class="form-group">
-		<label>This button demonstrates how to raise a warning alert.</label>
+		<label>This button demonstrates how to raise a warning alert.</label><br />
 		<button @onclick="@(() => Alerts.Raise<WarningAlert>())">Raise Warning Alert</button>
 		<label class="small">Look at the console for this alert's output.</label>
 	</div>
 	<div class="form-group">
-		<label>This button demonstrates how to raise an error alert.</label>
-		<button @onclick="@(() => Alerts.Raise<ErrorAlert>())">Raise Error Alert</button>
+		<label>This button demonstrates how to raise an error alert.</label><br />
+		<button @onclick="@(() => Alerts.Raise<ErrorAlert>())">Raise Error Alert (Overridden)</button>
 		<label class="small">Look at the console for this alert's output.</label>
 	</div>
 	<div class="form-group">
-		<label>This button demonstrates how to raise a critical error alert.</label>
+		<label>This button demonstrates how to raise a critical error alert.</label><br />
 		<button @onclick="@(() => Alerts.Raise<CriticalErrorAlert>())">Raise Critical Error Alert</button>
 		<label class="small">Look at the console for this alert's output.</label>
 	</div>
 	<div class="form-group pt-3">
-		<label>This button demonstrates how to raise a custom alert.</label>
+		<label>This button demonstrates how to raise a custom alert.</label><br />
 		<button @onclick="@(() => Alerts.Raise<CustomAlert>())">Raise Custom Alert</button>
+		<label class="small">This alert doesn't log to the console.</label><br />
 		@if (!string.IsNullOrEmpty(AlertMsg))
 		{
 			<p style="color: blue" class="pl-5 pt-1">@AlertMsg</p>

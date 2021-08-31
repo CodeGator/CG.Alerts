@@ -44,6 +44,22 @@ namespace CG.Alerts
         /// </summary>
         internal IList<Type> CustomAlertTypes { get; set; }
 
+        /// <summary>
+        /// This property indicates whether there are overrides, or not.
+        /// </summary>
+        internal bool HasOverrides 
+        {
+			get
+			{
+                // Return true if anything is overriden.
+                return InformationAlertType != typeof(InformationAlert) ||
+                    WarningAlertType != typeof(WarningAlert) ||
+                    ErrorAlertType != typeof(ErrorAlert) ||
+                    CriticalErrorAlertType != typeof(CriticalErrorAlert) ||
+                    AuditAlertType != typeof(AuditAlert);
+            }
+        }
+
         #endregion
 
         // *******************************************************************
@@ -88,15 +104,15 @@ namespace CG.Alerts
             InformationAlertType = typeof(TEvent);
         }
 
-        // *******************************************************************
+    // *******************************************************************
 
-        /// <summary>
-        /// This method may be called to override the default alert event type
-        /// to use for warning alerts.
-        /// </summary>
-        /// <typeparam name="TEvent">The type of alert event to use for warning
-        /// alerts.</typeparam>
-        public void SetWarningAlertType<TEvent>()
+    /// <summary>
+    /// This method may be called to override the default alert event type
+    /// to use for warning alerts.
+    /// </summary>
+    /// <typeparam name="TEvent">The type of alert event to use for warning
+    /// alerts.</typeparam>
+    public void SetWarningAlertType<TEvent>()
             where TEvent : WarningAlert
         {
             // Set the override.

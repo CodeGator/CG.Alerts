@@ -48,7 +48,7 @@ namespace CG.Alerts
         /// <summary>
         /// This field contains a reference to a logger.
         /// </summary>
-        private readonly ILogger<CriticalErrorAlert> _logger;
+        protected readonly ILogger<CriticalErrorAlert> _logger;
 
         #endregion
 
