@@ -134,15 +134,15 @@ references:
   commentId: T:CG.Alerts.AlertService
   fullName: CG.Alerts.AlertService
   nameWithType: AlertService
-- uid: CG.Alerts.AlertService.#ctor(CG.Events.IEventAggregator,Microsoft.Extensions.Logging.ILogger{CG.Alerts.AlertService})
-  name: AlertService(IEventAggregator, ILogger<AlertService>)
-  href: api/CG.Alerts.AlertService.html#CG_Alerts_AlertService__ctor_CG_Events_IEventAggregator_Microsoft_Extensions_Logging_ILogger_CG_Alerts_AlertService__
-  commentId: M:CG.Alerts.AlertService.#ctor(CG.Events.IEventAggregator,Microsoft.Extensions.Logging.ILogger{CG.Alerts.AlertService})
-  name.vb: AlertService(IEventAggregator, ILogger(Of AlertService))
-  fullName: CG.Alerts.AlertService.AlertService(CG.Events.IEventAggregator, Microsoft.Extensions.Logging.ILogger<CG.Alerts.AlertService>)
-  fullName.vb: CG.Alerts.AlertService.AlertService(CG.Events.IEventAggregator, Microsoft.Extensions.Logging.ILogger(Of CG.Alerts.AlertService))
-  nameWithType: AlertService.AlertService(IEventAggregator, ILogger<AlertService>)
-  nameWithType.vb: AlertService.AlertService(IEventAggregator, ILogger(Of AlertService))
+- uid: CG.Alerts.AlertService.#ctor(Microsoft.Extensions.Options.IOptions{CG.Alerts.AlertOptions},CG.Events.IEventAggregator,Microsoft.Extensions.Logging.ILogger{CG.Alerts.AlertService})
+  name: AlertService(IOptions<AlertOptions>, IEventAggregator, ILogger<AlertService>)
+  href: api/CG.Alerts.AlertService.html#CG_Alerts_AlertService__ctor_Microsoft_Extensions_Options_IOptions_CG_Alerts_AlertOptions__CG_Events_IEventAggregator_Microsoft_Extensions_Logging_ILogger_CG_Alerts_AlertService__
+  commentId: M:CG.Alerts.AlertService.#ctor(Microsoft.Extensions.Options.IOptions{CG.Alerts.AlertOptions},CG.Events.IEventAggregator,Microsoft.Extensions.Logging.ILogger{CG.Alerts.AlertService})
+  name.vb: AlertService(IOptions(Of AlertOptions), IEventAggregator, ILogger(Of AlertService))
+  fullName: CG.Alerts.AlertService.AlertService(Microsoft.Extensions.Options.IOptions<CG.Alerts.AlertOptions>, CG.Events.IEventAggregator, Microsoft.Extensions.Logging.ILogger<CG.Alerts.AlertService>)
+  fullName.vb: CG.Alerts.AlertService.AlertService(Microsoft.Extensions.Options.IOptions(Of CG.Alerts.AlertOptions), CG.Events.IEventAggregator, Microsoft.Extensions.Logging.ILogger(Of CG.Alerts.AlertService))
+  nameWithType: AlertService.AlertService(IOptions<AlertOptions>, IEventAggregator, ILogger<AlertService>)
+  nameWithType.vb: AlertService.AlertService(IOptions(Of AlertOptions), IEventAggregator, ILogger(Of AlertService))
 - uid: CG.Alerts.AlertService.#ctor*
   name: AlertService
   href: api/CG.Alerts.AlertService.html#CG_Alerts_AlertService__ctor_
@@ -260,6 +260,12 @@ references:
   isSpec: "True"
   fullName: CG.Alerts.AuditAlert.AuditAlert
   nameWithType: AuditAlert.AuditAlert
+- uid: CG.Alerts.AuditAlert._logger
+  name: _logger
+  href: api/CG.Alerts.AuditAlert.html#CG_Alerts_AuditAlert__logger
+  commentId: F:CG.Alerts.AuditAlert._logger
+  fullName: CG.Alerts.AuditAlert._logger
+  nameWithType: AuditAlert._logger
 - uid: CG.Alerts.AuditAlert.OnInvoke(System.Object[])
   name: OnInvoke(Object[])
   href: api/CG.Alerts.AuditAlert.html#CG_Alerts_AuditAlert_OnInvoke_System_Object___
@@ -298,6 +304,12 @@ references:
   isSpec: "True"
   fullName: CG.Alerts.CriticalErrorAlert.CriticalErrorAlert
   nameWithType: CriticalErrorAlert.CriticalErrorAlert
+- uid: CG.Alerts.CriticalErrorAlert._logger
+  name: _logger
+  href: api/CG.Alerts.CriticalErrorAlert.html#CG_Alerts_CriticalErrorAlert__logger
+  commentId: F:CG.Alerts.CriticalErrorAlert._logger
+  fullName: CG.Alerts.CriticalErrorAlert._logger
+  nameWithType: CriticalErrorAlert._logger
 - uid: CG.Alerts.CriticalErrorAlert.OnInvoke(System.Object[])
   name: OnInvoke(Object[])
   href: api/CG.Alerts.CriticalErrorAlert.html#CG_Alerts_CriticalErrorAlert_OnInvoke_System_Object___
@@ -336,6 +348,12 @@ references:
   isSpec: "True"
   fullName: CG.Alerts.ErrorAlert.ErrorAlert
   nameWithType: ErrorAlert.ErrorAlert
+- uid: CG.Alerts.ErrorAlert._logger
+  name: _logger
+  href: api/CG.Alerts.ErrorAlert.html#CG_Alerts_ErrorAlert__logger
+  commentId: F:CG.Alerts.ErrorAlert._logger
+  fullName: CG.Alerts.ErrorAlert._logger
+  nameWithType: ErrorAlert._logger
 - uid: CG.Alerts.ErrorAlert.OnInvoke(System.Object[])
   name: OnInvoke(Object[])
   href: api/CG.Alerts.ErrorAlert.html#CG_Alerts_ErrorAlert_OnInvoke_System_Object___
@@ -412,6 +430,12 @@ references:
   isSpec: "True"
   fullName: CG.Alerts.InformationAlert.InformationAlert
   nameWithType: InformationAlert.InformationAlert
+- uid: CG.Alerts.InformationAlert._logger
+  name: _logger
+  href: api/CG.Alerts.InformationAlert.html#CG_Alerts_InformationAlert__logger
+  commentId: F:CG.Alerts.InformationAlert._logger
+  fullName: CG.Alerts.InformationAlert._logger
+  nameWithType: InformationAlert._logger
 - uid: CG.Alerts.InformationAlert.OnInvoke(System.Object[])
   name: OnInvoke(Object[])
   href: api/CG.Alerts.InformationAlert.html#CG_Alerts_InformationAlert_OnInvoke_System_Object___
@@ -450,6 +474,12 @@ references:
   isSpec: "True"
   fullName: CG.Alerts.WarningAlert.WarningAlert
   nameWithType: WarningAlert.WarningAlert
+- uid: CG.Alerts.WarningAlert._logger
+  name: _logger
+  href: api/CG.Alerts.WarningAlert.html#CG_Alerts_WarningAlert__logger
+  commentId: F:CG.Alerts.WarningAlert._logger
+  fullName: CG.Alerts.WarningAlert._logger
+  nameWithType: WarningAlert._logger
 - uid: CG.Alerts.WarningAlert.OnInvoke(System.Object[])
   name: OnInvoke(Object[])
   href: api/CG.Alerts.WarningAlert.html#CG_Alerts_WarningAlert_OnInvoke_System_Object___
