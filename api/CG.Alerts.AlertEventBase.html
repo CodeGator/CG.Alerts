@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IAlertHandler
+    <title>Class AlertEventBase
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IAlertHandler
+    <meta name="title" content="Class AlertEventBase
    ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,75 +78,87 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Alerts.IAlertHandler">
+            <article class="content wrap" id="_content" data-uid="CG.Alerts.AlertEventBase">
   
   
-  <h1 id="CG_Alerts_IAlertHandler" data-uid="CG.Alerts.IAlertHandler" class="text-break">Interface IAlertHandler
+  <h1 id="CG_Alerts_AlertEventBase" data-uid="CG.Alerts.AlertEventBase" class="text-break">Class AlertEventBase
   </h1>
-  <div class="markdown level0 summary"><p>This interface represents an object that handles alerts.</p>
+  <div class="markdown level0 summary"><p>This class is a base for all alert type events.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CG.Events.Models.EventBase</span></div>
+    <div class="level2"><span class="xref">AlertEventBase</span></div>
+      <div class="level3"><a class="xref" href="CG.Alerts.AuditAlert.html">AuditAlert</a></div>
+      <div class="level3"><a class="xref" href="CG.Alerts.CriticalErrorAlert.html">CriticalErrorAlert</a></div>
+      <div class="level3"><a class="xref" href="CG.Alerts.ErrorAlert.html">ErrorAlert</a></div>
+      <div class="level3"><a class="xref" href="CG.Alerts.InformationAlert.html">InformationAlert</a></div>
+      <div class="level3"><a class="xref" href="CG.Alerts.WarningAlert.html">WarningAlert</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">CG.Events.Models.EventBase._subscriptions</span>
+    </div>
+    <div>
+      <span class="xref">CG.Events.Models.EventBase._sync</span>
+    </div>
+    <div>
+      <span class="xref">CG.Events.Models.EventBase.Publish(System.Object[])</span>
+    </div>
+    <div>
+      <span class="xref">CG.Events.Models.EventBase.PublishAsync(System.Object[])</span>
+    </div>
+    <div>
+      <span class="xref">CG.Events.Models.EventBase.Subscribe(System.Action&lt;System.Object[]&gt;, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">CG.Events.Models.EventBase.Subscribe(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">CG.Events.Models.EventBase.Unsubscribe(System.IDisposable)</span>
+    </div>
+    <div>
+      <span class="xref">CG.Events.Models.EventBase.OnInvoke(System.Object[])</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CG.Alerts.html">CG.Alerts</a></h6>
   <h6><strong>Assembly</strong>: CG.Alerts.dll</h6>
-  <h5 id="CG_Alerts_IAlertHandler_syntax">Syntax</h5>
+  <h5 id="CG_Alerts_AlertEventBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IAlertHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class AlertEventBase : EventBase</code></pre>
   </div>
-  <h3 id="methods">Methods
-  </h3>
-  <a id="CG_Alerts_IAlertHandler_HandleAlert_" data-uid="CG.Alerts.IAlertHandler.HandleAlert*"></a>
-  <h4 id="CG_Alerts_IAlertHandler_HandleAlert_CG_Alerts_AlertType_System_Collections_Generic_IDictionary_System_String_System_Object__System_String_System_String_System_Int32_" data-uid="CG.Alerts.IAlertHandler.HandleAlert(CG.Alerts.AlertType,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Int32)">HandleAlert(AlertType, IDictionary&lt;String, Object&gt;, String, String, Int32)</h4>
-  <div class="markdown level1 summary"><p>This method is called whenever an alert is raised. It routes the
-alert to the appropriate handler based on the <code data-dev-comment-type="paramref" class="paramref">alertType</code>
-parameter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void HandleAlert(AlertType alertType, IDictionary&lt;string, object&gt; args, string memberName = null, string sourceFilePath = null, int sourceLineNumber = 0)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="CG.Alerts.AlertType.html">AlertType</a></td>
-        <td><span class="parametername">alertType</span></td>
-        <td><p>The alert type to use for the alert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
-        <td><span class="parametername">args</span></td>
-        <td><p>The arguments to use for the alert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">memberName</span></td>
-        <td><p>Not used. Supplied by the compiler.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">sourceFilePath</span></td>
-        <td><p>Not used. Supplied by the compiler.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">sourceLineNumber</span></td>
-        <td><p>Not used. Supplied by the compiler.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 id="CG_Alerts_AlertEventBase_examples"><strong>Examples</strong></h5>
+  <p>Here is an example of deriving a custom alert type from the
+<a class="xref" href="CG.Alerts.AlertEventBase.html">AlertEventBase</a> class:</p>
+<pre><code>public class MyAlert : AlertEventBase
+{
+
+}</code></pre>
+
 </article>
           </div>
           

@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.Alert.yml",
+      "source_relative_path": "api/CG.Alerts.AlertEventBase.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Alerts.Alert.html",
-          "hash": "0qkilBVQkqBX8Af/uK06XkM4/LSVGKNxHJFaqq0a9GA="
+          "relative_path": "api/CG.Alerts.AlertEventBase.html",
+          "hash": "MxCgUEMCYD5w7DkSRmwS4AGEr/W1+DViibGGwOqHFvY="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.AlertExtensions.yml",
+      "source_relative_path": "api/CG.Alerts.AlertOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Alerts.AlertExtensions.html",
-          "hash": "9wqFC5BSCVtLg+Lda+5n3RDCxRZ9xhc0toZ9dbUpD80="
+          "relative_path": "api/CG.Alerts.AlertOptions.html",
+          "hash": "ppJ+CTTrCcEzdS185/UiVbR8+wLm1qtNWFox70vkMdw="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.AlertHandlerBase.yml",
+      "source_relative_path": "api/CG.Alerts.AlertService.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Alerts.AlertHandlerBase.html",
-          "hash": "sqVZ15WLySJkmWSUb6n8ykjV+sfQD5G0kg5+01uy+uQ="
+          "relative_path": "api/CG.Alerts.AlertService.html",
+          "hash": "ilanByhXNmp/1MOStF73orLBQWv0Tb48g9Q+2QmAiFY="
         }
       },
       "is_incremental": false,
@@ -50,11 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.AlertType.yml",
+      "source_relative_path": "api/CG.Alerts.AlertServiceExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Alerts.AlertType.html",
-          "hash": "zJ/cCHM8Ed1EWozOsgQiTNiWweWW5roQIzcKjQP+jcc="
+          "relative_path": "api/CG.Alerts.AlertServiceExtensions.html",
+          "hash": "A+IBUbFsAzI//Ski48r0Lgu2+EfM+dX/AtDZS4WMe2c="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.DefaultAlertHandler.yml",
+      "source_relative_path": "api/CG.Alerts.AuditAlert.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Alerts.DefaultAlertHandler.html",
-          "hash": "g5r6lKk0e4cUYqSPapJZbhci7KXeo5f+8QyGQzeiW1E="
+          "relative_path": "api/CG.Alerts.AuditAlert.html",
+          "hash": "G1xxZ13EqV6JUqbo29cRaAaQIRPQrj6+UnGmbHCfhwY="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.IAlert.yml",
+      "source_relative_path": "api/CG.Alerts.CriticalErrorAlert.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Alerts.IAlert.html",
-          "hash": "tAemXaZXHhALg9tJI/8B+erKkHvI0lf9fXl5X1TBPy4="
+          "relative_path": "api/CG.Alerts.CriticalErrorAlert.html",
+          "hash": "K9ZWiX+6VrK2fsauyOVzQtL6w+evDW7YZ2+OQCjsQHE="
         }
       },
       "is_incremental": false,
@@ -86,11 +86,47 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Alerts.IAlertHandler.yml",
+      "source_relative_path": "api/CG.Alerts.ErrorAlert.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Alerts.IAlertHandler.html",
-          "hash": "28oRdd2a9BW8oOAjjYUAxyrpnf+MJPkdZdPECrPlHGw="
+          "relative_path": "api/CG.Alerts.ErrorAlert.html",
+          "hash": "St8OW+rcg2DuwOp1RzTQtylNi3y7/4BV35bkSLJBLiQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.IAlertService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.IAlertService.html",
+          "hash": "JLmoNtv2WSOrb/Xm7izkbf/Rmw/tc5oySG3v4t4ycdE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.InformationAlert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.InformationAlert.html",
+          "hash": "SLaJ6uWbSiiN/9vj6X83vOP2SOpTzAy3QqQbnb+LkO4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Alerts.WarningAlert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Alerts.WarningAlert.html",
+          "hash": "rMWxiBTTCCUUhB/3M4Icpd0pBXEJX14D3pAp8OjhK7E="
         }
       },
       "is_incremental": false,
@@ -102,7 +138,55 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Alerts.html",
-          "hash": "FW4oSzE8c99Cvf+wPAcQPt8VxnYHjvbhL5i1JbLL+DM="
+          "hash": "OdgsToabk7Jj07E/s9M4FO27cDuJ90WroNDF8T0JV/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html",
+          "hash": "vw4Lrj5btC0FdVkYvAZsJjFm90c8+F/zTn5vNHsvVuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.html",
+          "hash": "a4vzmqWc1WqcnHvfL2t3f9/rROEHaiG1xgfM++oQKpk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
+          "hash": "R9IGrCodWMVXc+GfUr5utGqE2PUmJH4cLPtg8fn7eI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "yiOapDNDOwf9au0YwA5MSVZ+sArEwGS/s/ZwZWwsT2A="
         }
       },
       "is_incremental": false,
@@ -114,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ZHIKOWYJxsMlnADcTQXa3lfGZH1TGTaGE61Nuss/XpE="
+          "hash": "k4QkRHmIOTiqyHLVtmfKhsC35V/diB/4S0bD4xwhDdk="
         }
       },
       "is_incremental": false,
@@ -126,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "3lFGsZn+vpYCWz7OututIOBGsz91XMn2mjINvNxc584="
+          "hash": "exVg0miKSxAhrPsdEyYD3hCZPw//Hl1E+jJuAm1qqq4="
         }
       },
       "is_incremental": false,
@@ -194,7 +278,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "gpcCc1J6Wh6Atrf4DBx3C5ASj2U3S21UL0LIezgy//I="
+          "hash": "Ldnda0Ul8xHkma7lKUB2YTQbMd/P2s0IQyZQMBSqOPo="
         }
       },
       "is_incremental": false,
@@ -233,7 +317,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 8,
+          "total_file_count": 15,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

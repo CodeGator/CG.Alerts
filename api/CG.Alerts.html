@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace CG.Alerts
    ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -87,34 +87,39 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
-      <h4><a class="xref" href="CG.Alerts.Alert.html">Alert</a></h4>
-      <section><p>This class represents a singleton implementation of the <a class="xref" href="CG.Alerts.IAlert.html">IAlert</a>
+      <h4><a class="xref" href="CG.Alerts.AlertEventBase.html">AlertEventBase</a></h4>
+      <section><p>This class is a base for all alert type events.</p>
+</section>
+      <h4><a class="xref" href="CG.Alerts.AlertOptions.html">AlertOptions</a></h4>
+      <section><p>This class contains options for the <a class="xref" href="CG.Alerts.IAlertService.html">IAlertService</a> service.</p>
+</section>
+      <h4><a class="xref" href="CG.Alerts.AlertService.html">AlertService</a></h4>
+      <section><p>This class is a default implementation of the <a class="xref" href="CG.Alerts.IAlertService.html">IAlertService</a>
 interface.</p>
 </section>
-      <h4><a class="xref" href="CG.Alerts.AlertExtensions.html">AlertExtensions</a></h4>
-      <section><p>This class contains extension methods related to the <a class="xref" href="CG.Alerts.IAlert.html">IAlert</a>
+      <h4><a class="xref" href="CG.Alerts.AlertServiceExtensions.html">AlertServiceExtensions</a></h4>
+      <section><p>This class contains extension methods related to the <a class="xref" href="CG.Alerts.IAlertService.html">IAlertService</a>
 type.</p>
 </section>
-      <h4><a class="xref" href="CG.Alerts.AlertHandlerBase.html">AlertHandlerBase</a></h4>
-      <section><p>This class is an abstract implementation of the <a class="xref" href="CG.Alerts.IAlertHandler.html">IAlertHandler</a>
-interface.</p>
+      <h4><a class="xref" href="CG.Alerts.AuditAlert.html">AuditAlert</a></h4>
+      <section><p>This class is a default handler for an audit alert event.</p>
 </section>
-      <h4><a class="xref" href="CG.Alerts.DefaultAlertHandler.html">DefaultAlertHandler</a></h4>
-      <section><p>This class is a default implementation of the <a class="xref" href="CG.Alerts.IAlertHandler.html">IAlertHandler</a>
-interface.</p>
+      <h4><a class="xref" href="CG.Alerts.CriticalErrorAlert.html">CriticalErrorAlert</a></h4>
+      <section><p>This class is a default handler for a critical error alert event.</p>
+</section>
+      <h4><a class="xref" href="CG.Alerts.ErrorAlert.html">ErrorAlert</a></h4>
+      <section><p>This class is a default handler for an error alert event.</p>
+</section>
+      <h4><a class="xref" href="CG.Alerts.InformationAlert.html">InformationAlert</a></h4>
+      <section><p>This class is a default handler for an information alert event.</p>
+</section>
+      <h4><a class="xref" href="CG.Alerts.WarningAlert.html">WarningAlert</a></h4>
+      <section><p>This class is a default handler for an warning alert event.</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
-      <h4><a class="xref" href="CG.Alerts.IAlert.html">IAlert</a></h4>
-      <section><p>This interface represents an alert for a .NET application.</p>
-</section>
-      <h4><a class="xref" href="CG.Alerts.IAlertHandler.html">IAlertHandler</a></h4>
-      <section><p>This interface represents an object that handles alerts.</p>
-</section>
-    <h3 id="enums">Enums
-  </h3>
-      <h4><a class="xref" href="CG.Alerts.AlertType.html">AlertType</a></h4>
-      <section><p>This enumeration lists the types of alerts that can be raised.</p>
+      <h4><a class="xref" href="CG.Alerts.IAlertService.html">IAlertService</a></h4>
+      <section><p>This interface represents an object that raises alerts.</p>
 </section>
 </article>
           </div>
