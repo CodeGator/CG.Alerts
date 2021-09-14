@@ -89,80 +89,52 @@ namespace CG.Alerts
                     //   is derived from a 'standard alert' type, and if so,
                     //   substitute the overridden type for TAlert.
 
+                    // Assume nothing is overridden.
+                    var alertType = typeof(TAlert);
+
                     // Is TAlert a kind of audit alert?
                     if (_options.AuditAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.AuditAlertType);
-
-                        // Raise the alert with the overridden type.
-                        (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .Publish(args);
+                        // Audit type is overrridden.
+                        alertType = _options.AuditAlertType;
                     }
 
                     // Is TAlert a kind of information alert?
                     else if (_options.InformationAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.InformationAlertType);
-
-                        // Raise the alert with the overridden type.
-                        (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .Publish(args);
+                        // Information type is overrridden.
+                        alertType = _options.InformationAlertType;
                     }
 
                     // Is TAlert a kind of warning alert?
                     else if (_options.WarningAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.WarningAlertType);
-
-                        // Raise the alert with the overridden type.
-                        (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .Publish(args);
+                        // Warning type is overrridden.
+                        alertType = _options.WarningAlertType;
                     }
 
                     // Is TAlert a kind of error alert?
                     else if (_options.ErrorAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.ErrorAlertType);
-
-                        // Raise the alert with the overridden type.
-                        (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .Publish(args);
+                        // Error type is overrridden.
+                        alertType = _options.ErrorAlertType;
                     }
 
                     // Is TAlert a kind of critical error alert?
                     else if (_options.CriticalErrorAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.CriticalErrorAlertType);
-
-                        // Raise the alert with the overridden type.
-                        (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .Publish(args);
+                        // Critical error type is overrridden.
+                        alertType = _options.CriticalErrorAlertType;
                     }
 
-                    // Otherwise we don't know this type.
-                    else
-					{
-                        // If we get here then TAlert isn't a 'standard alert' type
-                        //   so we can just raise the alert and be done.
+                    // Make the generic method call.
+                    var methodInfo = typeof(IEventAggregator)
+                        .GetMethod("GetEvent")
+                        .MakeGenericMethod(alertType);
 
-                        // Raise the event for the alert.
-                        _eventAggregator.GetEvent<TAlert>().Publish(args);
-                    }
+                    // Raise the alert with the overridden type.
+                    (methodInfo.Invoke(_eventAggregator, Array.Empty<object>()) as AlertEventBase)
+                        .Publish(args);
 				}
 				else
 				{
@@ -201,92 +173,55 @@ namespace CG.Alerts
                     //   is derived from a 'standard alert' type, and if so,
                     //   substitute the overridden type for TAlert.
 
+                    // Assume nothing is overridden.
+                    var alertType = typeof(TAlert);
+
                     // Is TAlert a kind of audit alert?
                     if (_options.AuditAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.AuditAlertType);
+                        // Audit type is overrridden.
+                        alertType = _options.AuditAlertType;
 
-                        // Raise the alert with the overridden type.
-                        await (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .PublishAsync(
-                                args
-                                ).ConfigureAwait(false);
                     }
 
                     // Is TAlert a kind of information alert?
                     else if (_options.InformationAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.InformationAlertType);
-
-                        // Raise the alert with the overridden type.
-                        await (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .PublishAsync(
-                                args
-                                ).ConfigureAwait(false);
+                        // Information type is overrridden.
+                        alertType = _options.InformationAlertType;
                     }
 
                     // Is TAlert a kind of warning alert?
                     else if (_options.WarningAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.WarningAlertType);
-
-                        // Raise the alert with the overridden type.
-                        await (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .PublishAsync(
-                                args
-                                ).ConfigureAwait(false);
+                        // Warning type is overrridden.
+                        alertType = _options.WarningAlertType;
                     }
 
                     // Is TAlert a kind of error alert?
                     else if (_options.ErrorAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.ErrorAlertType);
-
-                        // Raise the alert with the overridden type.
-                        await (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .PublishAsync(
-                                args
-                                ).ConfigureAwait(false);
+                        // Error type is overrridden.
+                        alertType = _options.ErrorAlertType;
                     }
 
                     // Is TAlert a kind of critical error alert?
                     else if (_options.CriticalErrorAlertType.IsAssignableTo(typeof(TAlert)))
                     {
-                        // Make the generic method call.
-                        var methodInfo = typeof(IEventAggregator)
-                            .GetMethod("GetEvent")
-                            .MakeGenericMethod(_options.CriticalErrorAlertType);
-
-                        // Raise the alert with the overridden type.
-                        await (methodInfo.Invoke(_eventAggregator, args) as AlertEventBase)
-                            .PublishAsync(
-                                args
-                                ).ConfigureAwait(false);
+                        // Critical error type is overrridden.
+                        alertType = _options.CriticalErrorAlertType;
                     }
 
-                    // Otherwise we don't know this type.
-                    else
-                    {
-                        // If we get here then TAlert isn't a 'standard alert' type
-                        //   so we can just raise the alert and be done.
+                    // Make the generic method call.
+                    var methodInfo = typeof(IEventAggregator)
+                        .GetMethod("GetEvent")
+                        .MakeGenericMethod(alertType);
 
-                        // Raise the event for the alert.
-                        await _eventAggregator.GetEvent<TAlert>().PublishAsync(
+                    // Raise the alert with the overridden type.
+                    await (methodInfo.Invoke(_eventAggregator, Array.Empty<object>()) as AlertEventBase)
+                        .PublishAsync(
                             args
                             ).ConfigureAwait(false);
-                    }
                 }
                 else
                 {
@@ -305,6 +240,100 @@ namespace CG.Alerts
                 _logger.LogError(
                     ex,
                     "Failed to raise a '{AlertType}' alert!",
+                    typeof(TAlert).Name
+                    );
+            }
+        }
+
+        // *******************************************************************
+
+        /// <inheritdoc/>
+        public void Subscribe<TAlert>(
+            Action<object[]> actionDelegate,
+            bool strongReference = false
+            ) where TAlert : AlertEventBase
+        {
+            // Validate the parameters before attempting to use them.
+            Guard.Instance().ThrowIfNull(actionDelegate, nameof(actionDelegate));
+
+            try
+            {
+                // Is anything overridden?
+                if (_options.HasOverrides)
+                {
+                    // If we get here then at least one type of 'standard alert'
+                    //   is overridden. So, now, we need to figure out if TAlert
+                    //   is derived from a 'standard alert' type, and if so,
+                    //   substitute the overridden type for TAlert.
+
+                    // Assume nothing is overridden.
+                    var alertType = typeof(TAlert);
+
+                    // Is TAlert a kind of audit alert?
+                    if (_options.AuditAlertType.IsAssignableTo(typeof(TAlert)))
+                    {
+                        // Audit type is overrridden.
+                        alertType = _options.AuditAlertType;                        
+                    }
+
+                    // Is TAlert a kind of information alert?
+                    else if (_options.InformationAlertType.IsAssignableTo(typeof(TAlert)))
+                    {
+                        // Information type is overrridden.
+                        alertType = _options.InformationAlertType;
+                    }
+
+                    // Is TAlert a kind of warning alert?
+                    else if (_options.WarningAlertType.IsAssignableTo(typeof(TAlert)))
+                    {
+                        // Warning type is overrridden.
+                        alertType = _options.WarningAlertType;
+                    }
+
+                    // Is TAlert a kind of error alert?
+                    else if (_options.ErrorAlertType.IsAssignableTo(typeof(TAlert)))
+                    {
+                        // Error type is overrridden.
+                        alertType = _options.ErrorAlertType;
+                    }
+
+                    // Is TAlert a kind of critical error alert?
+                    else if (_options.CriticalErrorAlertType.IsAssignableTo(typeof(TAlert)))
+                    {
+                        // Critical error type is overrridden.
+                        alertType = _options.CriticalErrorAlertType;
+                    }
+
+                    // Make the generic method call.
+                    var methodInfo = typeof(IEventAggregator)
+                        .GetMethod("GetEvent")
+                        .MakeGenericMethod(alertType);
+
+                    // Subscribe to the alert with the overridden type.
+                    (methodInfo.Invoke(_eventAggregator, Array.Empty<object>()) as AlertEventBase)
+                        .Subscribe(
+                        actionDelegate,
+                        strongReference
+                        );
+                }
+                else
+                {
+                    // If we get here then nothing is overridden so we can just
+                    //   subscribe the alert and be done.
+
+                    // Subscribe the event for the alert.
+                    _eventAggregator.GetEvent<TAlert>().Subscribe(
+                        actionDelegate,
+                        strongReference
+                        );
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log the error.
+                _logger.LogError(
+                    ex,
+                    "Failed to subscribe to an alert of type: '{AlertType}'!",
                     typeof(TAlert).Name
                     );
             }

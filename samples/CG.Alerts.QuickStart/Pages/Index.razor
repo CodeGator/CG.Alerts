@@ -7,46 +7,68 @@
 <div style="max-width: 650px;">
 	<div class="form-group">
 		<label>This button demonstrates how to raise an audit alert.</label><br />
-		<button @onclick="@(() => Alerts.Raise<AuditAlert>())">Raise Audit Alert</button>
-		<label class="small">Look at the console for this alert's output.</label>
+		<button @onclick="@(() => Alerts.Raise<AuditAlert>(DateTime.Now))">Raise Audit Alert</button>
+		<label class="small">Look at the console for this alert's output.</label><br />
+		<p style="color: blue" class="pl-5 pt-1">@AuditAlertMsg</p>
 	</div>
 	<div class="form-group">
 		<label>This button demonstrates how to raise an information alert.</label><br />
-		<button @onclick="@(() => Alerts.Raise<InformationAlert>())">Raise Information Alert</button>
-		<label class="small">Look at the console for this alert's output.</label>
+		<button @onclick="@(() => Alerts.Raise<InformationAlert>(DateTime.Now))">Raise Information Alert</button>
+		<label class="small">Look at the console for this alert's output.</label><br />
+		<p style="color: blue" class="pl-5 pt-1">@InformationAlertMsg</p>
 	</div>
 	<div class="form-group">
 		<label>This button demonstrates how to raise a warning alert.</label><br />
-		<button @onclick="@(() => Alerts.Raise<WarningAlert>())">Raise Warning Alert</button>
-		<label class="small">Look at the console for this alert's output.</label>
+		<button @onclick="@(() => Alerts.Raise<WarningAlert>(DateTime.Now))">Raise Warning Alert</button>
+		<label class="small">Look at the console for this alert's output.</label><br />
+		<p style="color: blue" class="pl-5 pt-1">@WarningAlertMsg</p>
 	</div>
 	<div class="form-group">
 		<label>This button demonstrates how to raise an error alert.</label><br />
-		<button @onclick="@(() => Alerts.Raise<ErrorAlert>())">Raise Error Alert (Overridden)</button>
-		<label class="small">Look at the console for this alert's output.</label>
+		<button @onclick="@(() => Alerts.Raise<ErrorAlert>(DateTime.Now))">Raise Error Alert (Overridden)</button>
+		<label class="small">Look at the console for this alert's output.</label><br />
+		<p style="color: blue" class="pl-5 pt-1">@ErrorAlertMsg</p>
 	</div>
 	<div class="form-group">
 		<label>This button demonstrates how to raise a critical error alert.</label><br />
-		<button @onclick="@(() => Alerts.Raise<CriticalErrorAlert>())">Raise Critical Error Alert</button>
-		<label class="small">Look at the console for this alert's output.</label>
+		<button @onclick="@(() => Alerts.Raise<CriticalErrorAlert>(DateTime.Now))">Raise Critical Error Alert</button>
+		<label class="small">Look at the console for this alert's output.</label><br />
+		<p style="color: blue" class="pl-5 pt-1">@CriticalErrorAlertMsg</p>
 	</div>
 	<div class="form-group pt-3">
 		<label>This button demonstrates how to raise a custom alert.</label><br />
-		<button @onclick="@(() => Alerts.Raise<CustomAlert>())">Raise Custom Alert</button>
+		<button @onclick="@(() => Alerts.Raise<CustomAlert>(DateTime.Now))">Raise Custom Alert</button>
 		<label class="small">This alert doesn't log to the console.</label><br />
-		@if (!string.IsNullOrEmpty(AlertMsg))
-		{
-			<p style="color: blue" class="pl-5 pt-1">@AlertMsg</p>
-		}
+    	<p style="color: darkgreen" class="pl-5 pt-1">@CustomAlertMsg</p>
+		<p style="color: blue" class="pl-5">@CustomAlertMsg2</p>
 	</div>
 </div>
 
 @code {
-	string AlertMsg { get; set; }
+	string AuditAlertMsg { get; set; }
+	string InformationAlertMsg { get; set; }
+	string WarningAlertMsg { get; set; }
+	string ErrorAlertMsg { get; set; }
+	string CriticalErrorAlertMsg { get; set; }
+
+	string CustomAlertMsg { get; set; }
+	string CustomAlertMsg2 { get; set; }
+
 	protected override void OnInitialized()
 	{
-		// This demonstrates one way of integrating alerts with the UI.
-		CustomAlert.OnAlert += (m) => AlertMsg = m;
+		// This demonstrates one possible way of integrating a custom alert with the UI.
+		CustomAlert.OnAlert += (m) => CustomAlertMsg = m;
+
+		// These calls are purely optional, and are intended to demonstrate extra local
+		//   processing for an alert type. This does NOT replace whatever the alert itself
+		//   does when raised. 
+		Alerts.Subscribe<AuditAlert>(m => AuditAlertMsg = $"local msg: {m.FirstOrDefault()}", true);
+		Alerts.Subscribe<InformationAlert>(m => InformationAlertMsg = $"local msg: {m.FirstOrDefault()}", true);
+		Alerts.Subscribe<WarningAlert>(m => WarningAlertMsg = $"local msg: {m.FirstOrDefault()}", true);
+		Alerts.Subscribe<ErrorAlert>(m => ErrorAlertMsg = $"local msg: {m.FirstOrDefault()}", true);
+		Alerts.Subscribe<CriticalErrorAlert>(m => CriticalErrorAlertMsg = $"local msg: {m.FirstOrDefault()}", true);
+		Alerts.Subscribe<CustomAlert>(m => CustomAlertMsg2 = $"local msg: {m.FirstOrDefault()}", true);
+
 		base.OnInitialized();
 	}
 }

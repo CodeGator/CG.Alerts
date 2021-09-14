@@ -32,8 +32,10 @@ namespace CG.Alerts.QuickStart.Alerts
             params object[] args
             )
         {
-            // This demonstrates one way to integrate alerts with the UI.
-            OnAlert?.Invoke($"Alert raised at: '{DateTime.Now}'");
+            // This demonstrates one way to integrate alerts with the UI from
+            //   a custom alert. You could also simply subscribe to this alert,
+            //   as an alternative.
+            OnAlert?.Invoke($"Alert processed at: '{DateTime.Now}'");
 
             // Optionally, give the base class a chance.
             base.OnInvoke(args);

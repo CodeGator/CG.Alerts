@@ -9,6 +9,12 @@
 
 * I added the ability to raise overridden alert types with the well-known base type.
 
+* I added the ability to subscribe to alerts locally.
+
+* I added the ability to subscribe to overridden alert types using the well-known base type.
+
+* bug fixes
+
 ## 2021.3
 
 * bug fixes
