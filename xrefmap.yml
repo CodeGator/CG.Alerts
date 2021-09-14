@@ -182,6 +182,22 @@ references:
   fullName.vb: CG.Alerts.AlertService.RaiseAsync(Of TAlert)(System.Object())
   nameWithType: AlertService.RaiseAsync<TAlert>(Object[])
   nameWithType.vb: AlertService.RaiseAsync(Of TAlert)(Object())
+- uid: CG.Alerts.AlertService.Subscribe*
+  name: Subscribe
+  href: api/CG.Alerts.AlertService.html#CG_Alerts_AlertService_Subscribe_
+  commentId: Overload:CG.Alerts.AlertService.Subscribe
+  isSpec: "True"
+  fullName: CG.Alerts.AlertService.Subscribe
+  nameWithType: AlertService.Subscribe
+- uid: CG.Alerts.AlertService.Subscribe``1(System.Action{System.Object[]},System.Boolean)
+  name: Subscribe<TAlert>(Action<Object[]>, Boolean)
+  href: api/CG.Alerts.AlertService.html#CG_Alerts_AlertService_Subscribe__1_System_Action_System_Object____System_Boolean_
+  commentId: M:CG.Alerts.AlertService.Subscribe``1(System.Action{System.Object[]},System.Boolean)
+  name.vb: Subscribe(Of TAlert)(Action(Of Object()), Boolean)
+  fullName: CG.Alerts.AlertService.Subscribe<TAlert>(System.Action<System.Object[]>, System.Boolean)
+  fullName.vb: CG.Alerts.AlertService.Subscribe(Of TAlert)(System.Action(Of System.Object()), System.Boolean)
+  nameWithType: AlertService.Subscribe<TAlert>(Action<Object[]>, Boolean)
+  nameWithType.vb: AlertService.Subscribe(Of TAlert)(Action(Of Object()), Boolean)
 - uid: CG.Alerts.AlertServiceExtensions
   name: AlertServiceExtensions
   href: api/CG.Alerts.AlertServiceExtensions.html
@@ -384,14 +400,14 @@ references:
   fullName: CG.Alerts.IAlertService.Raise
   nameWithType: IAlertService.Raise
 - uid: CG.Alerts.IAlertService.Raise``1(System.Object[])
-  name: Raise<TEvent>(Object[])
+  name: Raise<TAlert>(Object[])
   href: api/CG.Alerts.IAlertService.html#CG_Alerts_IAlertService_Raise__1_System_Object___
   commentId: M:CG.Alerts.IAlertService.Raise``1(System.Object[])
-  name.vb: Raise(Of TEvent)(Object())
-  fullName: CG.Alerts.IAlertService.Raise<TEvent>(System.Object[])
-  fullName.vb: CG.Alerts.IAlertService.Raise(Of TEvent)(System.Object())
-  nameWithType: IAlertService.Raise<TEvent>(Object[])
-  nameWithType.vb: IAlertService.Raise(Of TEvent)(Object())
+  name.vb: Raise(Of TAlert)(Object())
+  fullName: CG.Alerts.IAlertService.Raise<TAlert>(System.Object[])
+  fullName.vb: CG.Alerts.IAlertService.Raise(Of TAlert)(System.Object())
+  nameWithType: IAlertService.Raise<TAlert>(Object[])
+  nameWithType.vb: IAlertService.Raise(Of TAlert)(Object())
 - uid: CG.Alerts.IAlertService.RaiseAsync*
   name: RaiseAsync
   href: api/CG.Alerts.IAlertService.html#CG_Alerts_IAlertService_RaiseAsync_
@@ -400,14 +416,30 @@ references:
   fullName: CG.Alerts.IAlertService.RaiseAsync
   nameWithType: IAlertService.RaiseAsync
 - uid: CG.Alerts.IAlertService.RaiseAsync``1(System.Object[])
-  name: RaiseAsync<TEvent>(Object[])
+  name: RaiseAsync<TAlert>(Object[])
   href: api/CG.Alerts.IAlertService.html#CG_Alerts_IAlertService_RaiseAsync__1_System_Object___
   commentId: M:CG.Alerts.IAlertService.RaiseAsync``1(System.Object[])
-  name.vb: RaiseAsync(Of TEvent)(Object())
-  fullName: CG.Alerts.IAlertService.RaiseAsync<TEvent>(System.Object[])
-  fullName.vb: CG.Alerts.IAlertService.RaiseAsync(Of TEvent)(System.Object())
-  nameWithType: IAlertService.RaiseAsync<TEvent>(Object[])
-  nameWithType.vb: IAlertService.RaiseAsync(Of TEvent)(Object())
+  name.vb: RaiseAsync(Of TAlert)(Object())
+  fullName: CG.Alerts.IAlertService.RaiseAsync<TAlert>(System.Object[])
+  fullName.vb: CG.Alerts.IAlertService.RaiseAsync(Of TAlert)(System.Object())
+  nameWithType: IAlertService.RaiseAsync<TAlert>(Object[])
+  nameWithType.vb: IAlertService.RaiseAsync(Of TAlert)(Object())
+- uid: CG.Alerts.IAlertService.Subscribe*
+  name: Subscribe
+  href: api/CG.Alerts.IAlertService.html#CG_Alerts_IAlertService_Subscribe_
+  commentId: Overload:CG.Alerts.IAlertService.Subscribe
+  isSpec: "True"
+  fullName: CG.Alerts.IAlertService.Subscribe
+  nameWithType: IAlertService.Subscribe
+- uid: CG.Alerts.IAlertService.Subscribe``1(System.Action{System.Object[]},System.Boolean)
+  name: Subscribe<TAlert>(Action<Object[]>, Boolean)
+  href: api/CG.Alerts.IAlertService.html#CG_Alerts_IAlertService_Subscribe__1_System_Action_System_Object____System_Boolean_
+  commentId: M:CG.Alerts.IAlertService.Subscribe``1(System.Action{System.Object[]},System.Boolean)
+  name.vb: Subscribe(Of TAlert)(Action(Of Object()), Boolean)
+  fullName: CG.Alerts.IAlertService.Subscribe<TAlert>(System.Action<System.Object[]>, System.Boolean)
+  fullName.vb: CG.Alerts.IAlertService.Subscribe(Of TAlert)(System.Action(Of System.Object()), System.Boolean)
+  nameWithType: IAlertService.Subscribe<TAlert>(Action<Object[]>, Boolean)
+  nameWithType.vb: IAlertService.Subscribe(Of TAlert)(Action(Of Object()), Boolean)
 - uid: CG.Alerts.InformationAlert
   name: InformationAlert
   href: api/CG.Alerts.InformationAlert.html

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IAlertService
    ">
-    <meta name="generator" content="docfx 2.58.2.0">
+    <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -102,14 +102,14 @@ handy for general applications. Those alerts are:
   <h3 id="methods">Methods
   </h3>
   <a id="CG_Alerts_IAlertService_Raise_" data-uid="CG.Alerts.IAlertService.Raise*"></a>
-  <h4 id="CG_Alerts_IAlertService_Raise__1_System_Object___" data-uid="CG.Alerts.IAlertService.Raise``1(System.Object[])">Raise&lt;TEvent&gt;(Object[])</h4>
+  <h4 id="CG_Alerts_IAlertService_Raise__1_System_Object___" data-uid="CG.Alerts.IAlertService.Raise``1(System.Object[])">Raise&lt;TAlert&gt;(Object[])</h4>
   <div class="markdown level1 summary"><p>This method raises an alert.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Raise&lt;TEvent&gt;(params object[] args)
-    where TEvent : AlertEventBase</code></pre>
+    <pre><code class="lang-csharp hljs">void Raise&lt;TAlert&gt;(params object[] args)
+    where TAlert : AlertEventBase</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,21 +139,21 @@ handy for general applications. Those alerts are:
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TEvent</span></td>
+        <td><span class="parametername">TAlert</span></td>
         <td><p>The type of alert to raise.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <a id="CG_Alerts_IAlertService_RaiseAsync_" data-uid="CG.Alerts.IAlertService.RaiseAsync*"></a>
-  <h4 id="CG_Alerts_IAlertService_RaiseAsync__1_System_Object___" data-uid="CG.Alerts.IAlertService.RaiseAsync``1(System.Object[])">RaiseAsync&lt;TEvent&gt;(Object[])</h4>
+  <h4 id="CG_Alerts_IAlertService_RaiseAsync__1_System_Object___" data-uid="CG.Alerts.IAlertService.RaiseAsync``1(System.Object[])">RaiseAsync&lt;TAlert&gt;(Object[])</h4>
   <div class="markdown level1 summary"><p>This method raises an alert.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task RaiseAsync&lt;TEvent&gt;(params object[] args)
-    where TEvent : AlertEventBase</code></pre>
+    <pre><code class="lang-csharp hljs">Task RaiseAsync&lt;TAlert&gt;(params object[] args)
+    where TAlert : AlertEventBase</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -199,8 +199,59 @@ handy for general applications. Those alerts are:
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TEvent</span></td>
+        <td><span class="parametername">TAlert</span></td>
         <td><p>The type of alert to raise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="CG_Alerts_IAlertService_Subscribe_" data-uid="CG.Alerts.IAlertService.Subscribe*"></a>
+  <h4 id="CG_Alerts_IAlertService_Subscribe__1_System_Action_System_Object____System_Boolean_" data-uid="CG.Alerts.IAlertService.Subscribe``1(System.Action{System.Object[]},System.Boolean)">Subscribe&lt;TAlert&gt;(Action&lt;Object[]&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>This method subscribes to an alert.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Subscribe&lt;TAlert&gt;(Action&lt;object[]&gt; actionDelegate, bool strongReference = false)
+    where TAlert : AlertEventBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>[]&gt;</td>
+        <td><span class="parametername">actionDelegate</span></td>
+        <td><p>The delegate to call for the alert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">strongReference</span></td>
+        <td><p>True to keep a strong reference to the delgate,
+false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TAlert</span></td>
+        <td><p>The type of alert.</p>
 </td>
       </tr>
     </tbody>
