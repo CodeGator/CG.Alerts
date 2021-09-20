@@ -68,7 +68,7 @@ namespace Microsoft.AspNetCore.Builder
             // Create a warning event and subscribe.
             (methodInfo.Invoke(eventAggregator, null) as WarningAlert)
                 ?.Subscribe(true);
-
+            
             // Make the generic method call for creating a error alert.
             methodInfo = typeof(IEventAggregator)
                 .GetMethod("GetEvent")

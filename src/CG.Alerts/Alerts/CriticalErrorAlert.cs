@@ -96,15 +96,14 @@ namespace CG.Alerts
                 if (args.Any())
                 {
                     // Look for an exception in the arguments.
-                    var ex = args.FirstOrDefault(x =>
-                        x.GetType().IsAssignableTo(typeof(Exception))
-                        ) as Exception;
 
                     // Did we find one?
-                    if (null != ex)
+                    if (args.FirstOrDefault(x =>
+                        x.GetType().IsAssignableTo(typeof(Exception))
+                        ) is Exception ex)
                     {
                         // Filter out the exception.
-                        args = args.Where(x => 
+                        args = args.Where(x =>
                             !x.GetType().IsAssignableTo(typeof(Exception))
                             ).ToArray();
 
@@ -115,7 +114,7 @@ namespace CG.Alerts
                             _logger.LogCritical(
                                 exception: ex,
                                 message: "'{AlertType}' Alert --> {Args}",
-                                nameof(CriticalErrorAlert),
+                                GetType().Name,
                                 string.Join(", ", args)
                                 );
                         }
@@ -125,16 +124,16 @@ namespace CG.Alerts
                             _logger.LogCritical(
                                 exception: ex,
                                 message: "'{AlertType}' Alert --> (No args)",
-                                nameof(CriticalErrorAlert)
+                                GetType().Name
                                 );
-                        }                        
+                        }
                     }
                     else
                     {
                         // Use structured logging for the args.
                         _logger.LogCritical(
                             "'{AlertType}' Alert --> {Args}",
-                            nameof(CriticalErrorAlert),
+                            GetType().Name,
                             string.Join(", ", args)
                             );
                     }
@@ -144,7 +143,7 @@ namespace CG.Alerts
                     // Log with no arguments.
                     _logger.LogCritical(
                         "'{AlertType}' Alert --> (No args)",
-                        nameof(CriticalErrorAlert)
+                        GetType().Name
                         );
                 }
 

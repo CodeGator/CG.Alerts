@@ -96,7 +96,7 @@ namespace CG.Alerts
                 {
                     _logger.LogInformation(
                        "'{AlertType}' Alert --> {Args}",
-                       nameof(InformationAlert),
+                       GetType().Name,
                        string.Join(", ", args)
                     );
                 }
@@ -104,7 +104,7 @@ namespace CG.Alerts
                 {
                     _logger.LogInformation(
                        "'{AlertType}' Alert --> (No args)",
-                       nameof(InformationAlert)
+                       GetType().Name
                     );
                 }                
 

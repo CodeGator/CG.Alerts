@@ -181,7 +181,6 @@ namespace CG.Alerts
                     {
                         // Audit type is overrridden.
                         alertType = _options.AuditAlertType;
-
                     }
 
                     // Is TAlert a kind of information alert?
@@ -264,7 +263,7 @@ namespace CG.Alerts
                     // If we get here then at least one type of 'standard alert'
                     //   is overridden. So, now, we need to figure out if TAlert
                     //   is derived from a 'standard alert' type, and if so,
-                    //   substitute the overridden type for TAlert.
+                    //   substitute the overridden type, for the TAlert type.
 
                     // Assume nothing is overridden.
                     var alertType = typeof(TAlert);

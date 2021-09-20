@@ -64,12 +64,8 @@ namespace Microsoft.Extensions.DependencyInjection
             // Create default options.
             var options = new AlertOptions();
 
-            // Should we call the delegate?
-            if (null != optionsDelegate)
-            {
-                // Let the caller set any overrides.
-                optionsDelegate(options);
-            }
+            // Let the caller set any overrides.
+            optionsDelegate?.Invoke(options);
 
             // Configure the options.
             serviceCollection.AddSingleton<IOptions<AlertOptions>>(
