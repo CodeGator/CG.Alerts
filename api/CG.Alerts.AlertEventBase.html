@@ -89,13 +89,18 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CG.Events.Models.EventBase</span></div>
-    <div class="level2"><span class="xref">AlertEventBase</span></div>
-      <div class="level3"><a class="xref" href="CG.Alerts.AuditAlert.html">AuditAlert</a></div>
-      <div class="level3"><a class="xref" href="CG.Alerts.CriticalErrorAlert.html">CriticalErrorAlert</a></div>
-      <div class="level3"><a class="xref" href="CG.Alerts.ErrorAlert.html">ErrorAlert</a></div>
-      <div class="level3"><a class="xref" href="CG.Alerts.InformationAlert.html">InformationAlert</a></div>
-      <div class="level3"><a class="xref" href="CG.Alerts.WarningAlert.html">WarningAlert</a></div>
+    <div class="level1"><span class="xref">CG.DisposableBase</span></div>
+    <div class="level2"><span class="xref">CG.Events.Models.EventBase</span></div>
+    <div class="level3"><span class="xref">AlertEventBase</span></div>
+      <div class="level4"><a class="xref" href="CG.Alerts.AuditAlert.html">AuditAlert</a></div>
+      <div class="level4"><a class="xref" href="CG.Alerts.CriticalErrorAlert.html">CriticalErrorAlert</a></div>
+      <div class="level4"><a class="xref" href="CG.Alerts.ErrorAlert.html">ErrorAlert</a></div>
+      <div class="level4"><a class="xref" href="CG.Alerts.InformationAlert.html">InformationAlert</a></div>
+      <div class="level4"><a class="xref" href="CG.Alerts.WarningAlert.html">WarningAlert</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -124,6 +129,15 @@
       <span class="xref">CG.Events.Models.EventBase.OnInvoke(System.Object[])</span>
     </div>
     <div>
+      <span class="xref">CG.DisposableBase.System.IDisposable.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">CG.DisposableBase.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">CG.DisposableBase.IsDisposed</span>
+    </div>
+    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
@@ -149,7 +163,7 @@
   <h6><strong>Assembly</strong>: CG.Alerts.dll</h6>
   <h5 id="CG_Alerts_AlertEventBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class AlertEventBase : EventBase</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class AlertEventBase : EventBase, IDisposable</code></pre>
   </div>
   <h5 id="CG_Alerts_AlertEventBase_examples"><strong>Examples</strong></h5>
   <p>Here is an example of deriving a custom alert type from the
@@ -159,6 +173,10 @@
 
 }</code></pre>
 
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
 </article>
           </div>
           
