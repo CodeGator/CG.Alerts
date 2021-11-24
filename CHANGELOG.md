@@ -1,6 +1,11 @@
 # CG.Alerts change log
 ---
 
+## 2022.1
+
+* I switched the runtime to .net 6.0
+* bug fixes
+
 ## 2021.4
 
 * I redesigned everything to work around my event aggregator.
